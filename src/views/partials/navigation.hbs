@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+      <div class="container-fluid ">
+    <a class="navbar-brand" href="/pantones">Pantones </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+                  {{#if allData.permisos}}
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/pantones/add">Agregar</a>
+        </li>
+          {{/if}}
+   <form class="form-inline " action="/pantones/search"method="POST">
+        <select class="custom-select cust-sel bg-dark" name="opt">
+          <option selected>Buscar por:</option>
+          <option value="cliente" name="cli">Cliente</option>
+          <option value="color" name="pant">Pantone</option>
+        </select>
+      </li>
+        <li>
+      <div class="input-group">
+    <input class="form-control mr-sm-2" type="search" name="busqueda" placeholder="Tu busqueda" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" >Buscar</button>
+    </div>
+  </form>
+        </li>
+          <li class="nav-item">
+            {{#if allData.username}}
+            <a class="btn btn-danger ml-2 my-sm-0" href="/logout">Salir</a>
+            {{else}}
+            <a class="btn btn-danger ml-2 my-sm-0" href="/logout">Login</a>
+          {{/if}}
+        </li>      
+      </ul>
+    </div>
+  </div>
+  </div>
+</nav>

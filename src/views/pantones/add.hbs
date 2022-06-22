@@ -1,0 +1,35 @@
+<div class="container p-4" >
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="card text-center">
+                <div class="card-header mt-1">
+                <h1>Agregar</h1>
+            </div>
+                <div class="card-body">
+                    <form action="/pantones/add" method="POST">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="cliente" placeholder="Cliente" autofocus>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="color" placeholder="Pantone">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="trabajo" placeholder="Trabajo y Ot">
+                        </div>
+                            <div class="form-group">
+                            <input type="text" class="form-control" name="sustrato" placeholder="Sustrato">
+                        </div>
+                        <div class="form-group">
+                            <textarea  name="recipe" class="form-control" rows="6" placeholder="Formula"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-success btn-block">
+                                Agregar
+                            </button>                      
+                        </div> 
+                    </form>
+            </div>
+        </div>                           
+    </div>
+</div>
+

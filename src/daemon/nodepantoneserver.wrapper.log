@@ -1,0 +1,16 @@
+2022-06-22 09:55:21 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-06-22 09:55:21 - Started 12832
+2022-06-22 09:56:08 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-06-22 09:56:08 - Started 2500
+2022-06-22 09:59:13 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-06-22 09:59:13 - Started 12580
+2022-06-22 10:07:07 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-06-22 10:07:07 - Started 11408
+2022-06-22 10:13:36 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-06-22 10:13:36 - Started 9600
+2022-06-22 10:33:08 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-06-22 10:33:09 - Started 4832
+2022-06-22 10:33:50 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-06-22 10:33:50 - Started 10220
+2022-06-22 10:54:59 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-06-22 10:54:59 - Started 3624

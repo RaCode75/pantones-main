@@ -1,0 +1,35 @@
+<div class="container p-4">
+    <div class="row align-items-center">
+        {{#each allData.pantones }}
+            <div class="col-md-3 mt-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <a href="">
+                            <h3 class="card-tittle text-uppercase">
+                                {{cliente}}
+                            </h3>
+                        </a>
+                        <h4 class="m-2">Pant: {{ color }}</h4>
+                        <h5 class="m-2">{{ trabajo }}</h5>
+                        <p class="m-2">{{ sustrato }}</p>
+                        <p class="m-2">{{ timeago created_at }}</p>
+                        <textarea class="m-2 mx-auto">{{ recipe }}</textarea>
+
+                       
+                            {{#if ../allData.permisos}}
+                        <a href="pantones/delete/{{ id }}" class="btn btn-danger" onclick="return confirm('Estas seguro?')">Borrar</a>
+                        <a href="/pantones/edit/{{ id }}" class="btn btn-secondary">Editar</a>
+                            {{/if}}
+                    </div>
+                </div>
+            </div>
+            {{else}}
+            <div class="col-md-4 mx-auto">
+                <div class="card card-body text-center">
+                    <p>No hay pantones de este cliente aun!.</p>
+                    <a href="/pantones/add">Agrega un pantone</a>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>

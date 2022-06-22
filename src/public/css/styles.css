@@ -1,0 +1,16 @@
+body{
+    background-color: #457;
+
+   
+}
+
+.danger{
+    background-color: rgb(230, 122, 95);
+    color:whitesmoke;
+}
+
+.cust-sel{
+    width:fit-content;
+    color:whitesmoke;
+    border: none;
+}
