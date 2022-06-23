@@ -4,6 +4,12 @@ body{
    
 }
 
+.fijo {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 .danger{
     background-color: rgb(230, 122, 95);
     color:whitesmoke;
@@ -13,4 +19,12 @@ body{
     width:fit-content;
     color:whitesmoke;
     border: none;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+.cabecera {
+    color:lightslategray;
 }

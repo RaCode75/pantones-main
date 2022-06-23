@@ -56,8 +56,7 @@ router.get('/',  async (req, res) => {
 
 router.post('/search', async(req, res) =>{
     const bus = req.body.busqueda
-    const opt = req.body.opt
-    console.log(bus)
+    const opt = req.body.opt 
     try{
         if(!req.user){
             const userId = 0
@@ -65,6 +64,7 @@ router.post('/search', async(req, res) =>{
             const data = user[0];
             const pantones = await pool.query(`SELECT * FROM clients WHERE ${opt.toUpperCase()}=?`,bus);
             const allData = {pantones, ...data}
+            console.log(opt)
             res.render('pantones/search', { allData });
         }else{
             const userId = req.user.id
