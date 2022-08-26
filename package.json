@@ -1,7 +1,7 @@
 {
   "name": "pantones",
   "version": "1.0.0",
-  "description": "A simple databse of colours",
+  "description": "A simple databse of pantone colours",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/"

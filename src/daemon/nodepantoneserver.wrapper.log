@@ -14,3 +14,359 @@
 2022-06-22 10:33:50 - Started 10220
 2022-06-22 10:54:59 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
 2022-06-22 10:54:59 - Started 3624
+2022-06-27 08:01:07 - Stopping nodepantoneserver.exe
+2022-06-27 08:01:07 - ProcessKill 3624
+2022-06-27 08:01:07 - Found child process: 3676 Name: conhost.exe
+2022-06-27 08:01:07 - Found child process: 4944 Name: node.exe
+2022-06-27 08:01:07 - Stopping process 3676
+2022-06-27 08:01:07 - Send SIGINT 3676
+2022-06-27 08:01:07 - SIGINT to 3676 failed - Killing as fallback
+2022-06-27 08:01:07 - Stopping process 4944
+2022-06-27 08:01:07 - Send SIGINT 4944
+2022-06-27 08:01:07 - SIGINT to 4944 failed - Killing as fallback
+2022-06-27 08:01:07 - Stopping process 3624
+2022-06-27 08:01:07 - Send SIGINT 3624
+2022-06-27 08:01:07 - SIGINT to 3624 failed - Killing as fallback
+2022-06-27 08:01:07 - Finished nodepantoneserver.exe
+2022-06-27 08:01:23 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-06-27 08:01:23 - Started 11876
+2022-07-01 12:41:35 - Stopping nodepantoneserver.exe
+2022-07-01 12:41:35 - ProcessKill 11876
+2022-07-01 12:41:35 - Found child process: 9152 Name: conhost.exe
+2022-07-01 12:41:35 - Found child process: 11200 Name: node.exe
+2022-07-01 12:41:35 - Stopping process 9152
+2022-07-01 12:41:35 - Send SIGINT 9152
+2022-07-01 12:41:35 - SIGINT to 9152 failed - Killing as fallback
+2022-07-01 12:41:35 - Stopping process 11200
+2022-07-01 12:41:35 - Send SIGINT 11200
+2022-07-01 12:41:35 - SIGINT to 11200 failed - Killing as fallback
+2022-07-01 12:41:35 - Stopping process 11876
+2022-07-01 12:41:35 - Send SIGINT 11876
+2022-07-01 12:41:35 - SIGINT to 11876 failed - Killing as fallback
+2022-07-01 12:41:35 - Finished nodepantoneserver.exe
+2022-07-01 12:41:42 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-07-01 12:41:42 - Started 12380
+2022-07-01 12:44:13 - Stopping nodepantoneserver.exe
+2022-07-01 12:44:13 - ProcessKill 12380
+2022-07-01 12:44:13 - Found child process: 7436 Name: conhost.exe
+2022-07-01 12:44:13 - Found child process: 7228 Name: node.exe
+2022-07-01 12:44:13 - Stopping process 7436
+2022-07-01 12:44:13 - Send SIGINT 7436
+2022-07-01 12:44:13 - SIGINT to 7436 failed - Killing as fallback
+2022-07-01 12:44:13 - Stopping process 7228
+2022-07-01 12:44:13 - Send SIGINT 7228
+2022-07-01 12:44:13 - SIGINT to 7228 failed - Killing as fallback
+2022-07-01 12:44:13 - Stopping process 12380
+2022-07-01 12:44:13 - Send SIGINT 12380
+2022-07-01 12:44:13 - SIGINT to 12380 failed - Killing as fallback
+2022-07-01 12:44:13 - Finished nodepantoneserver.exe
+2022-07-01 12:44:16 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-07-01 12:44:16 - Started 5916
+2022-07-01 12:47:21 - Stopping nodepantoneserver.exe
+2022-07-01 12:47:21 - ProcessKill 5916
+2022-07-01 12:47:21 - Found child process: 6820 Name: conhost.exe
+2022-07-01 12:47:21 - Found child process: 4592 Name: node.exe
+2022-07-01 12:47:21 - Stopping process 6820
+2022-07-01 12:47:21 - Send SIGINT 6820
+2022-07-01 12:47:21 - SIGINT to 6820 failed - Killing as fallback
+2022-07-01 12:47:21 - Stopping process 4592
+2022-07-01 12:47:21 - Send SIGINT 4592
+2022-07-01 12:47:21 - SIGINT to 4592 failed - Killing as fallback
+2022-07-01 12:47:21 - Stopping process 5916
+2022-07-01 12:47:21 - Send SIGINT 5916
+2022-07-01 12:47:21 - SIGINT to 5916 failed - Killing as fallback
+2022-07-01 12:47:21 - Finished nodepantoneserver.exe
+2022-07-01 12:47:22 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-07-01 12:47:22 - Started 4264
+2022-07-14 18:23:47 - Stopping nodepantoneserver.exe
+2022-07-14 18:23:47 - ProcessKill 4264
+2022-07-14 18:23:47 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-07-14 18:24:16 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-07-14 18:24:16 - Started 4784
+2022-08-05 06:07:06 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-05 06:07:06 - Started 4948
+2022-08-10 18:43:35 - Stopping nodepantoneserver.exe
+2022-08-10 18:43:35 - ProcessKill 4948
+2022-08-10 18:43:35 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-08-10 18:44:04 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-10 18:44:04 - Started 5096
+2022-08-19 12:09:23 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-19 12:09:23 - Started 4916
+2022-08-19 15:28:43 - Stopping nodepantoneserver.exe
+2022-08-19 15:28:43 - ProcessKill 4916
+2022-08-19 15:28:43 - Shutdown exception
+Message:Se está cerrando el sistema.
+
+Stacktrace:   en System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   en System.Management.ManagementScope.InitializeGuts(Object o)
+   en System.Management.ManagementScope.Initialize()
+   en System.Management.ManagementObjectSearcher.Initialize()
+   en System.Management.ManagementObjectSearcher.Get()
+   en winsw.WrapperService.GetChildPids(Int32 pid)
+   en winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   en winsw.WrapperService.StopIt()
+   en winsw.WrapperService.OnShutdown()
+2022-08-19 15:29:07 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-19 15:29:07 - Started 568
+2022-08-26 07:46:03 - Stopping nodepantoneserver.exe
+2022-08-26 07:46:03 - ProcessKill 568
+2022-08-26 07:46:03 - Found child process: 4988 Name: conhost.exe
+2022-08-26 07:46:03 - Found child process: 5168 Name: node.exe
+2022-08-26 07:46:04 - Stopping process 4988
+2022-08-26 07:46:04 - Send SIGINT 4988
+2022-08-26 07:46:04 - SIGINT to 4988 failed - Killing as fallback
+2022-08-26 07:46:04 - Stopping process 5168
+2022-08-26 07:46:04 - Send SIGINT 5168
+2022-08-26 07:46:04 - SIGINT to 5168 failed - Killing as fallback
+2022-08-26 07:46:04 - Stopping process 568
+2022-08-26 07:46:04 - Send SIGINT 568
+2022-08-26 07:46:04 - SIGINT to 568 failed - Killing as fallback
+2022-08-26 07:46:04 - Finished nodepantoneserver.exe
+2022-08-26 07:46:05 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-26 07:46:05 - Started 5596
+2022-08-26 10:26:03 - Stopping nodepantoneserver.exe
+2022-08-26 10:26:03 - ProcessKill 5596
+2022-08-26 10:26:03 - Found child process: 6600 Name: conhost.exe
+2022-08-26 10:26:03 - Found child process: 8892 Name: node.exe
+2022-08-26 10:26:03 - Stopping process 6600
+2022-08-26 10:26:03 - Send SIGINT 6600
+2022-08-26 10:26:03 - SIGINT to 6600 failed - Killing as fallback
+2022-08-26 10:26:03 - Stopping process 8892
+2022-08-26 10:26:03 - Send SIGINT 8892
+2022-08-26 10:26:03 - SIGINT to 8892 failed - Killing as fallback
+2022-08-26 10:26:03 - Stopping process 5596
+2022-08-26 10:26:03 - Send SIGINT 5596
+2022-08-26 10:26:03 - SIGINT to 5596 failed - Killing as fallback
+2022-08-26 10:26:03 - Finished nodepantoneserver.exe
+2022-08-26 10:26:04 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-26 10:26:04 - Started 12892
+2022-08-26 10:28:43 - Stopping nodepantoneserver.exe
+2022-08-26 10:28:43 - ProcessKill 12892
+2022-08-26 10:28:44 - Found child process: 10892 Name: conhost.exe
+2022-08-26 10:28:44 - Found child process: 7384 Name: node.exe
+2022-08-26 10:28:44 - Stopping process 10892
+2022-08-26 10:28:44 - Send SIGINT 10892
+2022-08-26 10:28:44 - SIGINT to 10892 failed - Killing as fallback
+2022-08-26 10:28:44 - Stopping process 7384
+2022-08-26 10:28:44 - Send SIGINT 7384
+2022-08-26 10:28:44 - SIGINT to 7384 failed - Killing as fallback
+2022-08-26 10:28:44 - Stopping process 12892
+2022-08-26 10:28:44 - Send SIGINT 12892
+2022-08-26 10:28:44 - SIGINT to 12892 failed - Killing as fallback
+2022-08-26 10:28:44 - Finished nodepantoneserver.exe
+2022-08-26 10:28:45 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-26 10:28:45 - Started 13780
+2022-08-26 10:32:17 - Stopping nodepantoneserver.exe
+2022-08-26 10:32:17 - ProcessKill 13780
+2022-08-26 10:32:17 - Found child process: 14120 Name: conhost.exe
+2022-08-26 10:32:17 - Found child process: 8760 Name: node.exe
+2022-08-26 10:32:17 - Stopping process 14120
+2022-08-26 10:32:17 - Send SIGINT 14120
+2022-08-26 10:32:17 - SIGINT to 14120 failed - Killing as fallback
+2022-08-26 10:32:17 - Stopping process 8760
+2022-08-26 10:32:17 - Send SIGINT 8760
+2022-08-26 10:32:17 - SIGINT to 8760 failed - Killing as fallback
+2022-08-26 10:32:17 - Stopping process 13780
+2022-08-26 10:32:17 - Send SIGINT 13780
+2022-08-26 10:32:17 - SIGINT to 13780 failed - Killing as fallback
+2022-08-26 10:32:17 - Finished nodepantoneserver.exe
+2022-08-26 10:32:18 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-26 10:32:18 - Started 340
+2022-08-26 10:33:18 - Stopping nodepantoneserver.exe
+2022-08-26 10:33:18 - ProcessKill 340
+2022-08-26 10:33:18 - Found child process: 940 Name: conhost.exe
+2022-08-26 10:33:18 - Found child process: 14200 Name: node.exe
+2022-08-26 10:33:18 - Stopping process 940
+2022-08-26 10:33:18 - Send SIGINT 940
+2022-08-26 10:33:18 - SIGINT to 940 failed - Killing as fallback
+2022-08-26 10:33:18 - Stopping process 14200
+2022-08-26 10:33:18 - Send SIGINT 14200
+2022-08-26 10:33:18 - SIGINT to 14200 failed - Killing as fallback
+2022-08-26 10:33:18 - Stopping process 340
+2022-08-26 10:33:18 - Send SIGINT 340
+2022-08-26 10:33:18 - SIGINT to 340 failed - Killing as fallback
+2022-08-26 10:33:18 - Finished nodepantoneserver.exe
+2022-08-26 10:33:20 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-26 10:33:20 - Started 13216
+2022-08-26 11:10:09 - Stopping nodepantoneserver.exe
+2022-08-26 11:10:09 - ProcessKill 13216
+2022-08-26 11:10:09 - Found child process: 660 Name: conhost.exe
+2022-08-26 11:10:09 - Found child process: 2624 Name: node.exe
+2022-08-26 11:10:10 - Stopping process 660
+2022-08-26 11:10:10 - Send SIGINT 660
+2022-08-26 11:10:10 - SIGINT to 660 failed - Killing as fallback
+2022-08-26 11:10:10 - Stopping process 2624
+2022-08-26 11:10:10 - Send SIGINT 2624
+2022-08-26 11:10:10 - SIGINT to 2624 failed - Killing as fallback
+2022-08-26 11:10:10 - Stopping process 13216
+2022-08-26 11:10:10 - Send SIGINT 13216
+2022-08-26 11:10:10 - SIGINT to 13216 failed - Killing as fallback
+2022-08-26 11:10:10 - Finished nodepantoneserver.exe
+2022-08-26 11:10:11 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-26 11:10:11 - Started 10500
+2022-08-26 11:55:14 - Stopping nodepantoneserver.exe
+2022-08-26 11:55:14 - ProcessKill 10500
+2022-08-26 11:55:15 - Found child process: 5444 Name: conhost.exe
+2022-08-26 11:55:15 - Found child process: 14304 Name: node.exe
+2022-08-26 11:55:15 - Stopping process 5444
+2022-08-26 11:55:15 - Send SIGINT 5444
+2022-08-26 11:55:15 - SIGINT to 5444 failed - Killing as fallback
+2022-08-26 11:55:15 - Stopping process 14304
+2022-08-26 11:55:15 - Send SIGINT 14304
+2022-08-26 11:55:15 - SIGINT to 14304 failed - Killing as fallback
+2022-08-26 11:55:15 - Stopping process 10500
+2022-08-26 11:55:15 - Send SIGINT 10500
+2022-08-26 11:55:15 - SIGINT to 10500 failed - Killing as fallback
+2022-08-26 11:55:15 - Finished nodepantoneserver.exe
+2022-08-26 11:55:16 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-26 11:55:16 - Started 3876
+2022-08-26 11:58:29 - Stopping nodepantoneserver.exe
+2022-08-26 11:58:29 - ProcessKill 3876
+2022-08-26 11:58:29 - Found child process: 8428 Name: conhost.exe
+2022-08-26 11:58:29 - Found child process: 7004 Name: node.exe
+2022-08-26 11:58:29 - Stopping process 8428
+2022-08-26 11:58:29 - Send SIGINT 8428
+2022-08-26 11:58:29 - SIGINT to 8428 failed - Killing as fallback
+2022-08-26 11:58:29 - Stopping process 7004
+2022-08-26 11:58:29 - Send SIGINT 7004
+2022-08-26 11:58:29 - SIGINT to 7004 failed - Killing as fallback
+2022-08-26 11:58:29 - Stopping process 3876
+2022-08-26 11:58:29 - Send SIGINT 3876
+2022-08-26 11:58:29 - SIGINT to 3876 failed - Killing as fallback
+2022-08-26 11:58:29 - Finished nodepantoneserver.exe
+2022-08-26 11:58:31 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-26 11:58:31 - Started 11804
+2022-08-26 12:08:13 - Stopping nodepantoneserver.exe
+2022-08-26 12:08:13 - ProcessKill 11804
+2022-08-26 12:08:13 - Found child process: 10728 Name: conhost.exe
+2022-08-26 12:08:13 - Found child process: 8204 Name: node.exe
+2022-08-26 12:08:13 - Stopping process 10728
+2022-08-26 12:08:13 - Send SIGINT 10728
+2022-08-26 12:08:13 - SIGINT to 10728 failed - Killing as fallback
+2022-08-26 12:08:13 - Stopping process 8204
+2022-08-26 12:08:13 - Send SIGINT 8204
+2022-08-26 12:08:13 - SIGINT to 8204 failed - Killing as fallback
+2022-08-26 12:08:13 - Stopping process 11804
+2022-08-26 12:08:13 - Send SIGINT 11804
+2022-08-26 12:08:13 - SIGINT to 11804 failed - Killing as fallback
+2022-08-26 12:08:13 - Finished nodepantoneserver.exe
+2022-08-26 12:08:14 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-26 12:08:14 - Started 13308
+2022-08-26 12:15:35 - Stopping nodepantoneserver.exe
+2022-08-26 12:15:35 - ProcessKill 13308
+2022-08-26 12:15:35 - Found child process: 4348 Name: conhost.exe
+2022-08-26 12:15:35 - Found child process: 568 Name: node.exe
+2022-08-26 12:15:35 - Stopping process 4348
+2022-08-26 12:15:35 - Send SIGINT 4348
+2022-08-26 12:15:35 - SIGINT to 4348 failed - Killing as fallback
+2022-08-26 12:15:36 - Stopping process 568
+2022-08-26 12:15:36 - Send SIGINT 568
+2022-08-26 12:15:36 - SIGINT to 568 failed - Killing as fallback
+2022-08-26 12:15:36 - Stopping process 13308
+2022-08-26 12:15:36 - Send SIGINT 13308
+2022-08-26 12:15:36 - SIGINT to 13308 failed - Killing as fallback
+2022-08-26 12:15:36 - Finished nodepantoneserver.exe
+2022-08-26 12:15:37 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-26 12:15:37 - Started 10612
+2022-08-26 12:19:47 - Stopping nodepantoneserver.exe
+2022-08-26 12:19:47 - ProcessKill 10612
+2022-08-26 12:19:47 - Found child process: 8688 Name: conhost.exe
+2022-08-26 12:19:47 - Found child process: 13208 Name: node.exe
+2022-08-26 12:19:47 - Stopping process 8688
+2022-08-26 12:19:47 - Send SIGINT 8688
+2022-08-26 12:19:47 - SIGINT to 8688 failed - Killing as fallback
+2022-08-26 12:19:47 - Stopping process 13208
+2022-08-26 12:19:47 - Send SIGINT 13208
+2022-08-26 12:19:47 - SIGINT to 13208 failed - Killing as fallback
+2022-08-26 12:19:47 - Stopping process 10612
+2022-08-26 12:19:47 - Send SIGINT 10612
+2022-08-26 12:19:47 - SIGINT to 10612 failed - Killing as fallback
+2022-08-26 12:19:47 - Finished nodepantoneserver.exe
+2022-08-26 12:19:48 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-26 12:19:48 - Started 10968
+2022-08-26 12:20:58 - Stopping nodepantoneserver.exe
+2022-08-26 12:20:58 - ProcessKill 10968
+2022-08-26 12:20:58 - Found child process: 896 Name: conhost.exe
+2022-08-26 12:20:58 - Found child process: 14092 Name: node.exe
+2022-08-26 12:20:58 - Stopping process 896
+2022-08-26 12:20:58 - Send SIGINT 896
+2022-08-26 12:20:58 - SIGINT to 896 failed - Killing as fallback
+2022-08-26 12:20:58 - Stopping process 14092
+2022-08-26 12:20:58 - Send SIGINT 14092
+2022-08-26 12:20:58 - SIGINT to 14092 failed - Killing as fallback
+2022-08-26 12:20:58 - Stopping process 10968
+2022-08-26 12:20:58 - Send SIGINT 10968
+2022-08-26 12:20:58 - SIGINT to 10968 failed - Killing as fallback
+2022-08-26 12:20:58 - Finished nodepantoneserver.exe
+2022-08-26 12:20:59 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-26 12:20:59 - Started 10572
+2022-08-26 12:21:47 - Stopping nodepantoneserver.exe
+2022-08-26 12:21:47 - ProcessKill 10572
+2022-08-26 12:21:47 - Found child process: 12820 Name: conhost.exe
+2022-08-26 12:21:47 - Found child process: 13260 Name: node.exe
+2022-08-26 12:21:47 - Stopping process 12820
+2022-08-26 12:21:47 - Send SIGINT 12820
+2022-08-26 12:21:47 - SIGINT to 12820 failed - Killing as fallback
+2022-08-26 12:21:47 - Stopping process 13260
+2022-08-26 12:21:47 - Send SIGINT 13260
+2022-08-26 12:21:47 - SIGINT to 13260 failed - Killing as fallback
+2022-08-26 12:21:47 - Stopping process 10572
+2022-08-26 12:21:47 - Send SIGINT 10572
+2022-08-26 12:21:47 - SIGINT to 10572 failed - Killing as fallback
+2022-08-26 12:21:47 - Finished nodepantoneserver.exe
+2022-08-26 12:21:49 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-26 12:21:49 - Started 12056
+2022-08-26 12:22:19 - Stopping nodepantoneserver.exe
+2022-08-26 12:22:19 - ProcessKill 12056
+2022-08-26 12:22:19 - Found child process: 7812 Name: conhost.exe
+2022-08-26 12:22:19 - Found child process: 10412 Name: node.exe
+2022-08-26 12:22:20 - Stopping process 7812
+2022-08-26 12:22:20 - Send SIGINT 7812
+2022-08-26 12:22:20 - SIGINT to 7812 failed - Killing as fallback
+2022-08-26 12:22:20 - Stopping process 10412
+2022-08-26 12:22:20 - Send SIGINT 10412
+2022-08-26 12:22:20 - SIGINT to 10412 failed - Killing as fallback
+2022-08-26 12:22:20 - Stopping process 12056
+2022-08-26 12:22:20 - Send SIGINT 12056
+2022-08-26 12:22:20 - SIGINT to 12056 failed - Killing as fallback
+2022-08-26 12:22:20 - Finished nodepantoneserver.exe
+2022-08-26 12:22:21 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-26 12:22:21 - Started 13324
+2022-08-26 12:23:24 - Stopping nodepantoneserver.exe
+2022-08-26 12:23:24 - ProcessKill 13324
+2022-08-26 12:23:24 - Found child process: 7952 Name: conhost.exe
+2022-08-26 12:23:24 - Found child process: 3892 Name: node.exe
+2022-08-26 12:23:24 - Stopping process 7952
+2022-08-26 12:23:24 - Send SIGINT 7952
+2022-08-26 12:23:24 - SIGINT to 7952 failed - Killing as fallback
+2022-08-26 12:23:24 - Stopping process 3892
+2022-08-26 12:23:24 - Send SIGINT 3892
+2022-08-26 12:23:24 - SIGINT to 3892 failed - Killing as fallback
+2022-08-26 12:23:24 - Stopping process 13324
+2022-08-26 12:23:24 - Send SIGINT 13324
+2022-08-26 12:23:24 - SIGINT to 13324 failed - Killing as fallback
+2022-08-26 12:23:24 - Finished nodepantoneserver.exe
+2022-08-26 12:23:25 - Starting C:\Program Files\nodejs\node.exe  C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\node-windows\lib\wrapper.js --file C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\index.js --scriptoptions= --log "nodePantoneServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-08-26 12:23:25 - Started 820

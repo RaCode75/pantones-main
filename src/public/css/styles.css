@@ -21,10 +21,14 @@ body{
     border: none;
 }
 
-h3 {
-    font-size: 2vw;
-}
 
 .cabecera {
     color:lightslategray;
+}
+
+@media (min-width: 568px) {
+    h3 {
+        font-size: 2vw;
+    }
+    
 }

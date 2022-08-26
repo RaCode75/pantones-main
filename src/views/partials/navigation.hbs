@@ -1,11 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fijo">
-  <div class="container">
-      <div class="container-fluid ">
+  <div class="container-fluid ">
     <a class="navbar-brand" href="/pantones">Pantones </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse justify-content-end col-md-6 col-sm-8" id="navbarNav">
       <ul class="navbar-nav ml-auto">
                   {{#if allData.permisos}}
         <li class="nav-item">
@@ -22,19 +21,18 @@
         <li>
       <div class="input-group">
     <input class="form-control mr-sm-2" type="search" name="busqueda" placeholder="Tu busqueda" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" >Buscar</button>
+    <button class="btn btn-outline-success ml-1 my-sm-0" >Buscar</button>
     </div>
   </form>
         </li>
           <li class="nav-item">
             {{#if allData.username}}
-            <a class="btn btn-danger ml-2 my-sm-0" href="/logout">Salir</a>
+            <a class="btn btn-danger  ml-lg-2 my-sm-2" href="/logout">Salir</a>
             {{else}}
-            <a class="btn btn-danger ml-2 my-sm-0" href="/logout">Login</a>
+            <a class="btn btn-danger  ml-lg-2 my-sm-2" href="/logout">Login</a>
           {{/if}}
         </li>      
       </ul>
     </div>
-  </div>
   </div>
 </nav>

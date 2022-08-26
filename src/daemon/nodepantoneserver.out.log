@@ -147,3 +147,2542 @@ crema
 [0mGET /css/styles.css [36m304[0m 2.512 ms - -[0m
 [0mGET /pantones [36m304[0m 9.162 ms - -[0m
 [0mGET /css/styles.css [36m304[0m 2.044 ms - -[0m
+[0mGET /logout [36m302[0m 7.535 ms - 56[0m
+[0mGET /login [32m200[0m 19.321 ms - 3805[0m
+[0mGET /css/styles.css [36m304[0m 1.549 ms - -[0m
+[0mGET /img/colores.png [36m304[0m 1.455 ms - -[0m
+[0mGET /login [32m200[0m 13.649 ms - 3805[0m
+[0mGET /css/styles.css [36m304[0m 1.755 ms - -[0m
+[0mGET /img/logoApp.png [32m200[0m 19.516 ms - 322360[0m
+[0mGET /login [36m304[0m 6.504 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.667 ms - -[0m
+[0mGET /img/logoApp.png [32m200[0m 1.429 ms - 331651[0m
+[0mGET /login [36m304[0m 5.744 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.071 ms - -[0m
+[0mGET /img/logoApp.png [32m200[0m 4.494 ms - 332971[0m
+[0mGET /logout [36m302[0m 1.738 ms - 56[0m
+[0mGET /login [36m304[0m 8.685 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.669 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 0.439 ms - -[0m
+[0mGET /logout [36m302[0m 0.730 ms - 56[0m
+[0mGET /login [36m304[0m 6.785 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.030 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 2.263 ms - -[0m
+[0mGET /pantones [32m200[0m 24.056 ms - 5467[0m
+[0mGET /css/styles.css [36m304[0m 1.046 ms - -[0m
+[0mGET /pantones [36m304[0m 6.903 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.987 ms - -[0m
+[0mGET /logout [36m302[0m 0.425 ms - 56[0m
+[0mGET /login [36m304[0m 4.916 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 2.269 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.445 ms - -[0m
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+[0mPOST /login [36m302[0m 97.481 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.134 ms - 7519[0m
+[0mGET /css/styles.css [36m304[0m 4.870 ms - -[0m
+[0mGET /pantones/search/Proximo [36m304[0m 7.011 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 6.226 ms - -[0m
+[0mGET /pantones [32m200[0m 10.463 ms - 6936[0m
+[0mGET /css/styles.css [36m304[0m 2.159 ms - -[0m
+[0mGET /pantones [32m200[0m 13.225 ms - 6930[0m
+[0mGET /css/styles.css [36m304[0m 2.754 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.943 ms - -[0m
+avon
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='avon'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='avon'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='avon'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+avon
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='avon'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='avon'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='avon'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+crema
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='crema'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='crema'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='crema'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [36m304[0m 15.073 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.270 ms - -[0m
+crema
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='crema'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='crema'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='crema'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [36m304[0m 10.201 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.961 ms - -[0m
+crema
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='crema'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='crema'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='crema'"
+}
+[0mGET /css/styles.css [36m304[0m 1.362 ms - -[0m
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [36m304[0m 12.361 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 4.052 ms - -[0m
+[0mGET /pantones [36m304[0m 6.325 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 5.015 ms - -[0m
+crema
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='crema'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='crema'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='crema'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [36m304[0m 9.101 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.736 ms - -[0m
+crema
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='crema'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='crema'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='crema'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [36m304[0m 10.797 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 4.048 ms - -[0m
+crema
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='crema'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='crema'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='crema'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+crema
+[0mPOST /pantones/search [32m200[0m 13.379 ms - 4097[0m
+[0mGET /css/styles.css [36m304[0m 3.254 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.327 ms - -[0m
+[0mGET /pantones [36m304[0m 7.771 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.467 ms - -[0m
+crema
+[0mPOST /pantones/search [32m200[0m 11.999 ms - 4097[0m
+[0mGET /css/styles.css [36m304[0m 1.258 ms - -[0m
+crema
+[0mPOST /pantones/search [32m200[0m 10.165 ms - 4097[0m
+[0mGET /css/styles.css [36m304[0m 5.884 ms - -[0m
+crema
+[0mPOST /pantones/search [32m200[0m 10.604 ms - 4097[0m
+[0mGET /css/styles.css [36m304[0m 2.771 ms - -[0m
+[0mGET /pantones [36m304[0m 12.018 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.525 ms - -[0m
+crema
+[0mPOST /pantones/search [32m200[0m 9.170 ms - 4097[0m
+[0mGET /css/styles.css [36m304[0m 2.173 ms - -[0m
+[0mGET /pantones [36m304[0m 11.300 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 4.598 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 14.366 ms - 10110[0m
+[0mGET /css/styles.css [36m304[0m 2.229 ms - -[0m
+[0mGET /pantones/search/Avon [36m304[0m 7.880 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 7.672 ms - -[0m
+[0mGET /pantones [36m304[0m 9.224 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.487 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.422 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 3.003 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 8.380 ms - 62[0m
+[0mGET /pantones [32m200[0m 9.229 ms - 7523[0m
+[0mGET /css/styles.css [36m304[0m 2.526 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.276 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 1.810 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.368 ms - 62[0m
+[0mGET /pantones [36m304[0m 8.899 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.858 ms - -[0m
+[0mGET /pantones/search/Tecnonuclear [32m200[0m 9.810 ms - 5996[0m
+[0mGET /css/styles.css [36m304[0m 4.748 ms - -[0m
+[0mGET /pantones/edit/18 [32m200[0m 14.667 ms - 4359[0m
+[0mGET /css/styles.css [36m304[0m 3.637 ms - -[0m
+[0mPOST /pantones/edit/18 [36m302[0m 6.478 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.471 ms - 7522[0m
+[0mGET /css/styles.css [36m304[0m 1.794 ms - -[0m
+[0mGET /pantones/search/Tecnonuclear [32m200[0m 9.989 ms - 6144[0m
+[0mGET /css/styles.css [36m304[0m 4.943 ms - -[0m
+[0mGET /pantones/search/Tecnonuclear [32m200[0m 9.058 ms - 6146[0m
+[0mGET /css/styles.css [32m200[0m 5.706 ms - 221[0m
+[0mGET /pantones/search/Tecnonuclear [36m304[0m 6.779 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.258 ms - -[0m
+[0mGET /pantones/search/Tecnonuclear [32m200[0m 10.097 ms - 6146[0m
+[0mGET /css/styles.css [36m304[0m 1.532 ms - -[0m
+[0mGET /pantones/search/Tecnonuclear [36m304[0m 8.407 ms - -[0m
+[0mGET /css/styles.css [32m200[0m 2.498 ms - 221[0m
+[0mGET /pantones/search/Tecnonuclear [36m304[0m 8.421 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.116 ms - -[0m
+[0mGET /pantones/search/Tecnonuclear [36m304[0m 10.456 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.398 ms - -[0m
+[0mGET /pantones/search/Tecnonuclear [32m200[0m 7.526 ms - 6146[0m
+[0mGET /css/styles.css [32m200[0m 4.112 ms - 221[0m
+[0mGET /pantones/search/Tecnonuclear [36m304[0m 11.306 ms - -[0m
+[0mGET /css/styles.css [32m200[0m 1.083 ms - 220[0m
+[0mGET /pantones/search/Tecnonuclear [36m304[0m 11.539 ms - -[0m
+[0mGET /css/styles.css [32m200[0m 1.375 ms - 220[0m
+[0mGET /pantones [32m200[0m 10.445 ms - 6930[0m
+[0mGET /css/styles.css [36m304[0m 2.264 ms - -[0m
+[0mGET /pantones/search/Padoc [32m200[0m 7.720 ms - 4097[0m
+[0mGET /css/styles.css [36m304[0m 1.610 ms - -[0m
+[0mGET /pantones [36m304[0m 10.943 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 5.006 ms - -[0m
+[0mGET /pantones [36m304[0m 8.322 ms - -[0m
+[0mGET /css/styles.css [32m200[0m 2.072 ms - 222[0m
+[0mGET /pantones/search/Tecnonuclear [32m200[0m 11.249 ms - 6148[0m
+[0mGET /css/styles.css [36m304[0m 0.869 ms - -[0m
+[0mGET /pantones/search/Tecnonuclear [36m304[0m 6.853 ms - -[0m
+[0mGET /css/styles.css [32m200[0m 3.128 ms - 222[0m
+[0mGET /pantones/search/Tecnonuclear [32m200[0m 6.836 ms - 6148[0m
+[0mGET /css/styles.css [32m200[0m 2.801 ms - 220[0m
+[0mGET /pantones [36m304[0m 7.768 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 4.165 ms - -[0m
+[0mGET /pantones/add [32m200[0m 16.514 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 2.375 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.621 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.450 ms - 8176[0m
+[0mGET /css/styles.css [36m304[0m 3.875 ms - -[0m
+[0mGET /pantones [32m200[0m 5.851 ms - 7618[0m
+[0mGET /css/styles.css [36m304[0m 3.470 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 10.382 ms - 4073[0m
+[0mGET /css/styles.css [36m304[0m 1.790 ms - -[0m
+[0mGET /pantones/edit/19 [32m200[0m 7.186 ms - 4487[0m
+[0mGET /css/styles.css [36m304[0m 5.642 ms - -[0m
+[0mPOST /pantones/edit/19 [36m302[0m 7.308 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.793 ms - 8210[0m
+[0mGET /css/styles.css [36m304[0m 3.363 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 10.017 ms - 4080[0m
+[0mGET /css/styles.css [36m304[0m 4.651 ms - -[0m
+[0mGET /pantones [32m200[0m 11.249 ms - 7618[0m
+[0mGET /css/styles.css [36m304[0m 6.433 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.522 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 1.919 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 5.024 ms - 62[0m
+[0mGET /pantones [32m200[0m 8.472 ms - 8872[0m
+[0mGET /css/styles.css [36m304[0m 2.218 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.270 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 1.613 ms - -[0m
+[0mGET /pantones [32m200[0m 11.343 ms - 8279[0m
+[0mGET /css/styles.css [36m304[0m 1.662 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 10.413 ms - 10111[0m
+[0mGET /css/styles.css [36m304[0m 5.616 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 6.199 ms - 10279[0m
+[0mGET /css/styles.css [36m304[0m 1.551 ms - -[0m
+[0mGET /pantones [36m304[0m 7.967 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.434 ms - -[0m
+[0mGET /pantones [36m304[0m 8.548 ms - -[0m
+[0mGET /css/styles.css [32m200[0m 3.356 ms - 256[0m
+[0mGET /pantones/search/Avon [32m200[0m 8.819 ms - 10344[0m
+[0mGET /css/styles.css [36m304[0m 1.475 ms - -[0m
+[0mGET /pantones/search/Avon [36m304[0m 11.061 ms - -[0m
+[0mGET /css/styles.css [32m200[0m 4.197 ms - 261[0m
+[0mGET /pantones [36m304[0m 10.869 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.398 ms - -[0m
+[0mGET /pantones/add [36m304[0m 8.336 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.245 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.813 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.693 ms - 9557[0m
+[0mGET /css/styles.css [36m304[0m 2.272 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.159 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 1.922 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.269 ms - 62[0m
+[0mGET /pantones [36m304[0m 8.425 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.732 ms - -[0m
+[0mGET /pantones/search/Cia.%20de%20Lapices [32m200[0m 9.169 ms - 5233[0m
+[0mGET /css/styles.css [36m304[0m 3.668 ms - -[0m
+[0mGET /pantones/edit/22 [32m200[0m 8.378 ms - 4499[0m
+[0mGET /css/styles.css [36m304[0m 4.242 ms - -[0m
+[0mPOST /pantones/edit/22 [36m302[0m 4.308 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.370 ms - 9556[0m
+[0mGET /css/styles.css [36m304[0m 2.335 ms - -[0m
+[0mGET /pantones/search/Cia.%20de%20Lapices [32m200[0m 8.231 ms - 5235[0m
+[0mGET /css/styles.css [36m304[0m 4.286 ms - -[0m
+[0mGET /pantones [32m200[0m 8.790 ms - 8964[0m
+[0mGET /css/styles.css [36m304[0m 3.696 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.214 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 4.927 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 1.951 ms - 62[0m
+[0mGET /pantones [32m200[0m 9.008 ms - 9557[0m
+[0mGET /css/styles.css [36m304[0m 1.507 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.697 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 3.470 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.589 ms - 62[0m
+[0mGET /pantones [36m304[0m 5.629 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.354 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 7.153 ms - 12455[0m
+[0mGET /css/styles.css [36m304[0m 4.630 ms - -[0m
+[0mGET /pantones [32m200[0m 9.647 ms - 8964[0m
+[0mGET /css/styles.css [36m304[0m 3.189 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 9.261 ms - 12459[0m
+[0mGET /css/styles.css [36m304[0m 2.469 ms - -[0m
+natura
+[0mPOST /pantones/search [32m200[0m 7.267 ms - 4111[0m
+[0mGET /css/styles.css [36m304[0m 4.113 ms - -[0m
+[0mGET /pantones [36m304[0m 7.129 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.423 ms - -[0m
+[0mGET /pantones/search/Cia.%20de%20Lapices [32m200[0m 8.808 ms - 5235[0m
+[0mGET /css/styles.css [36m304[0m 3.306 ms - -[0m
+[0mGET /pantones [36m304[0m 13.014 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.611 ms - -[0m
+[0mGET /logout [36m302[0m 1.599 ms - 56[0m
+[0mGET /login [32m200[0m 4.353 ms - 3805[0m
+[0mGET /css/styles.css [36m304[0m 0.862 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 1.015 ms - -[0m
+avon
+[0mPOST /pantones/search [32m200[0m 7.515 ms - 10358[0m
+[0mGET /css/styles.css [36m304[0m 1.803 ms - -[0m
+[0mGET /pantones [32m200[0m 9.334 ms - 6825[0m
+[0mGET /css/styles.css [36m304[0m 0.748 ms - -[0m
+[0mGET /logout [36m302[0m 0.440 ms - 56[0m
+[0mGET /login [36m304[0m 6.008 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.604 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 0.627 ms - -[0m
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+[0mPOST /login [36m302[0m 68.128 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.096 ms - 9547[0m
+[0mGET /css/styles.css [36m304[0m 4.886 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.386 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 3.912 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.994 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.574 ms - 9557[0m
+[0mGET /css/styles.css [36m304[0m 3.184 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.809 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 7.548 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 6.234 ms - 62[0m
+[0mGET /pantones [36m304[0m 9.668 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.733 ms - -[0m
+[0mGET /pantones/search/Padoc [32m200[0m 10.361 ms - 6262[0m
+[0mGET /css/styles.css [36m304[0m 3.733 ms - -[0m
+[0mGET /pantones/add [32m200[0m 4.551 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 3.720 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.053 ms - 62[0m
+[0mGET /pantones [32m200[0m 4.940 ms - 10224[0m
+[0mGET /css/styles.css [36m304[0m 2.723 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.674 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 5.081 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.207 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.091 ms - 10876[0m
+[0mGET /css/styles.css [36m304[0m 2.435 ms - -[0m
+[0mGET /pantones/search/Laca [32m200[0m 7.059 ms - 4051[0m
+[0mGET /css/styles.css [36m304[0m 3.907 ms - -[0m
+[0mGET /pantones/add [32m200[0m 9.045 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 3.324 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.980 ms - 62[0m
+[0mGET /pantones [32m200[0m 8.028 ms - 11540[0m
+[0mGET /css/styles.css [36m304[0m 1.321 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.023 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 8.077 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.957 ms - 62[0m
+[0mGET /pantones [36m304[0m 6.164 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.181 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.711 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 3.841 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.066 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.856 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.253 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.898 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 2.801 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.400 ms - 62[0m
+[0mGET /pantones [36m304[0m 11.550 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.061 ms - -[0m
+[0mGET /pantones/search/Loval [32m200[0m 7.926 ms - 7338[0m
+[0mGET /css/styles.css [36m304[0m 1.935 ms - -[0m
+[0mGET /pantones [32m200[0m 8.322 ms - 10947[0m
+[0mGET /css/styles.css [36m304[0m 1.597 ms - -[0m
+[0mGET /pantones/search/Loval [32m200[0m 9.269 ms - 7344[0m
+[0mGET /css/styles.css [36m304[0m 2.310 ms - -[0m
+[0mGET /pantones [36m304[0m 10.588 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.125 ms - -[0m
+[0mGET /pantones/search/Loval [36m304[0m 15.916 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.693 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.338 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 3.010 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.015 ms - 62[0m
+[0mGET /pantones [32m200[0m 4.516 ms - 11540[0m
+[0mGET /css/styles.css [36m304[0m 2.326 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.426 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 3.352 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.835 ms - 62[0m
+[0mGET /pantones [36m304[0m 10.160 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.624 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.086 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 5.204 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.215 ms - 62[0m
+[0mGET /pantones [36m304[0m 6.843 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.030 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.117 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 1.306 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.590 ms - 62[0m
+[0mGET /pantones [36m304[0m 6.847 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.629 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.154 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 1.843 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 23.262 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.363 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.410 ms - -[0m
+[0mGET /pantones/search/Padoc [32m200[0m 7.312 ms - 8441[0m
+[0mGET /css/styles.css [36m304[0m 3.997 ms - -[0m
+[0mGET /pantones/add [32m200[0m 8.632 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 5.873 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 29.509 ms - 62[0m
+[0mGET /pantones [36m304[0m 8.007 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.208 ms - -[0m
+[0mGET /pantones/add [32m200[0m 12.638 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 1.460 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 6.295 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.724 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.531 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 8.991 ms - 5262[0m
+[0mGET /css/styles.css [36m304[0m 4.849 ms - -[0m
+[0mGET /pantones/add [32m200[0m 8.796 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 1.460 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 5.725 ms - 62[0m
+[0mGET /pantones [36m304[0m 9.262 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.348 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 10.358 ms - 6437[0m
+[0mGET /css/styles.css [36m304[0m 4.271 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.587 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 5.961 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 1.971 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.392 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.871 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.384 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 5.747 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.621 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.309 ms - 12201[0m
+[0mGET /css/styles.css [36m304[0m 2.039 ms - -[0m
+[0mGET /pantones/add [32m200[0m 9.337 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 3.678 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.569 ms - 62[0m
+[0mGET /pantones [32m200[0m 4.715 ms - 12868[0m
+[0mGET /css/styles.css [36m304[0m 3.400 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.592 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 3.879 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 1.973 ms - 62[0m
+[0mGET /pantones [32m200[0m 8.182 ms - 13526[0m
+[0mGET /css/styles.css [36m304[0m 2.340 ms - -[0m
+[0mGET /pantones/add [32m200[0m 8.578 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 3.250 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.594 ms - 62[0m
+[0mGET /pantones [36m304[0m 5.365 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 7.149 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.987 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 1.547 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.741 ms - 62[0m
+[0mGET /pantones [36m304[0m 5.121 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.668 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 8.646 ms - 12450[0m
+[0mGET /css/styles.css [36m304[0m 4.365 ms - -[0m
+[0mGET /pantones/edit/4 [32m200[0m 6.894 ms - 4454[0m
+[0mGET /css/styles.css [36m304[0m 4.751 ms - -[0m
+[0mPOST /pantones/edit/4 [36m302[0m 5.047 ms - 62[0m
+[0mGET /pantones [32m200[0m 4.547 ms - 13525[0m
+[0mGET /css/styles.css [36m304[0m 1.552 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 10.082 ms - 12463[0m
+[0mGET /css/styles.css [36m304[0m 3.962 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.310 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 2.335 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.498 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.340 ms - 13526[0m
+[0mGET /css/styles.css [36m304[0m 2.625 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 7.666 ms - 7573[0m
+[0mGET /css/styles.css [36m304[0m 7.196 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.859 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 1.959 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.659 ms - 62[0m
+[0mGET /pantones [36m304[0m 10.384 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.808 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.478 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 2.217 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.376 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.166 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.282 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.677 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 4.406 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.958 ms - 62[0m
+[0mGET /pantones [36m304[0m 10.450 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.659 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.496 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 3.403 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.844 ms - 62[0m
+[0mGET /pantones [32m200[0m 4.714 ms - 14205[0m
+[0mGET /css/styles.css [36m304[0m 3.299 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.820 ms - -[0m
+[0mGET /pantones [32m200[0m 7.233 ms - 13612[0m
+[0mGET /css/styles.css [36m304[0m 2.383 ms - -[0m
+[0mGET /pantones [32m200[0m 6.812 ms - 13612[0m
+[0mGET /css/styles.css [36m304[0m 2.124 ms - -[0m
+[0mGET /pantones [32m200[0m 9.425 ms - 13612[0m
+[0mGET /css/styles.css [36m304[0m 1.460 ms - -[0m
+[0mGET /pantones [32m200[0m 6.326 ms - 13772[0m
+[0mGET /css/styles.css [36m304[0m 2.761 ms - -[0m
+[0mGET /pantones [32m200[0m 6.556 ms - 13708[0m
+[0mGET /css/styles.css [36m304[0m 2.206 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.569 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 2.633 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 1.954 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.726 ms - 14301[0m
+[0mGET /css/styles.css [36m304[0m 1.866 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.161 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 2.479 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.259 ms - 62[0m
+[0mGET /pantones [36m304[0m 4.774 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.111 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 8.515 ms - 15636[0m
+[0mGET /css/styles.css [36m304[0m 3.180 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.726 ms - 4590[0m
+[0mGET /css/styles.css [36m304[0m 3.557 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.323 ms - 62[0m
+[0mGET /pantones [36m304[0m 4.750 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.815 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 9.081 ms - 16770[0m
+[0mGET /css/styles.css [36m304[0m 5.731 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 6.322 ms - 16780[0m
+[0mGET /css/styles.css [32m200[0m 5.116 ms - 294[0m
+[0mGET /pantones/search/Avon [32m200[0m 6.475 ms - 16780[0m
+[0mGET /css/styles.css [32m200[0m 3.965 ms - 306[0m
+[0mGET /pantones/search/Avon [36m304[0m 8.379 ms - -[0m
+[0mGET /css/styles.css [32m200[0m 2.685 ms - 322[0m
+[0mGET /pantones [32m200[0m 10.668 ms - 13713[0m
+[0mGET /css/styles.css [36m304[0m 2.659 ms - -[0m
+avon
+[0mPOST /pantones/search [32m200[0m 14.261 ms - 16768[0m
+[0mGET /css/styles.css [36m304[0m 1.435 ms - -[0m
+[0mGET /pantones/add [32m200[0m 9.920 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.900 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.826 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.122 ms - 14306[0m
+[0mGET /css/styles.css [36m304[0m 2.722 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 12.214 ms - 17864[0m
+[0mGET /css/styles.css [36m304[0m 2.238 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.792 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.733 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.689 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.855 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 5.411 ms - -[0m
+[0mGET /pantones/add [32m200[0m 4.152 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.375 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.458 ms - 62[0m
+[0mGET /pantones [32m200[0m 9.251 ms - 14970[0m
+[0mGET /css/styles.css [36m304[0m 2.479 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.096 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.408 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.522 ms - 62[0m
+[0mGET /pantones [36m304[0m 8.096 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.636 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.677 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.036 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.488 ms - 62[0m
+[0mGET /pantones [36m304[0m 12.231 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.146 ms - -[0m
+3125
+[0mPOST /pantones/search [32m200[0m 13.510 ms - 4088[0m
+[0mGET /css/styles.css [36m304[0m 2.653 ms - -[0m
+3105
+[0mPOST /pantones/search [32m200[0m 13.331 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 1.794 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.070 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 5.085 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 1.994 ms - 62[0m
+[0mGET /pantones [36m304[0m 9.752 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.014 ms - -[0m
+3125
+[0mPOST /pantones/search [32m200[0m 12.662 ms - 4088[0m
+[0mGET /css/styles.css [36m304[0m 3.481 ms - -[0m
+[0mGET /pantones/edit/4 [32m200[0m 5.179 ms - 4472[0m
+[0mGET /css/styles.css [36m304[0m 1.097 ms - -[0m
+[0mPOST /pantones/edit/4 [36m302[0m 4.385 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.309 ms - 14969[0m
+[0mGET /css/styles.css [36m304[0m 2.935 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.475 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 6.552 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.895 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.473 ms - 14970[0m
+[0mGET /css/styles.css [36m304[0m 2.447 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.458 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 5.448 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.814 ms - 62[0m
+[0mGET /pantones [36m304[0m 5.396 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.283 ms - -[0m
+[0mGET /pantones/add [32m200[0m 8.582 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 3.513 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.968 ms - 62[0m
+[0mGET /pantones [36m304[0m 5.604 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.238 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.611 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 3.893 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.015 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.427 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 4.306 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 114.837 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 12.465 ms - 150[0m
+[0mGET /pantones/search/Biosintex [32m200[0m 35.554 ms - 5194[0m
+[0mGET /css/styles.css [36m304[0m 2.384 ms - -[0m
+[0mGET /pantones [32m200[0m 11.789 ms - 14377[0m
+[0mGET /css/styles.css [36m304[0m 1.933 ms - -[0m
+213
+[0mPOST /pantones/search [32m200[0m 54.994 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 2.822 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.334 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.952 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 16.070 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.973 ms - 14970[0m
+[0mGET /css/styles.css [36m304[0m 2.491 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 11.721 ms - 15059[0m
+[0mGET /css/styles.css [36m304[0m 3.989 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.584 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.914 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 1.988 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.866 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.870 ms - -[0m
+[0mGET /pantones/add [32m200[0m 10.169 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.271 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.912 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.123 ms - 15637[0m
+[0mGET /css/styles.css [36m304[0m 1.544 ms - -[0m
+[0mGET /pantones/add [32m200[0m 8.278 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 5.039 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 5.377 ms - 62[0m
+[0mGET /pantones [36m304[0m 5.378 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.355 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.363 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 5.692 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.535 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.175 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.106 ms - -[0m
+[0mGET /pantones/add [32m200[0m 4.278 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.613 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.056 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.745 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.294 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.105 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 4.100 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.439 ms - 62[0m
+[0mGET /pantones [36m304[0m 6.629 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.679 ms - -[0m
+[0mGET /pantones/add [32m200[0m 13.974 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 4.272 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 5.554 ms - 62[0m
+[0mGET /pantones [36m304[0m 6.128 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.808 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 13.661 ms - 20067[0m
+[0mGET /css/styles.css [36m304[0m 1.264 ms - -[0m
+219
+[0mPOST /pantones/search [32m200[0m 9.426 ms - 4032[0m
+[0mGET /css/styles.css [36m304[0m 1.779 ms - -[0m
+[0mGET /pantones [32m200[0m 9.268 ms - 15044[0m
+[0mGET /css/styles.css [36m304[0m 5.204 ms - -[0m
+[0mGET /pantones/search/Avon [36m304[0m 11.327 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.955 ms - -[0m
+7125
+[0mPOST /pantones/search [32m200[0m 9.491 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 3.374 ms - -[0m
+219
+[0mPOST /pantones/search [32m200[0m 7.356 ms - 4032[0m
+[0mGET /css/styles.css [36m304[0m 1.191 ms - -[0m
+[0mGET /pantones [36m304[0m 9.163 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.150 ms - -[0m
+[0mGET /pantones/search/Biosintex [32m200[0m 14.406 ms - 5191[0m
+[0mGET /css/styles.css [36m304[0m 2.039 ms - -[0m
+[0mGET /pantones [36m304[0m 9.978 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.402 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.427 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.956 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.746 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.040 ms - 15637[0m
+[0mGET /css/styles.css [36m304[0m 2.553 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.314 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 5.409 ms - -[0m
+[0mGET /pantones [32m200[0m 7.100 ms - 15044[0m
+[0mGET /css/styles.css [36m304[0m 2.099 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 11.010 ms - 18336[0m
+[0mGET /css/styles.css [36m304[0m 4.643 ms - -[0m
+[0mGET /pantones [36m304[0m 8.239 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.498 ms - -[0m
+[0mGET /pantones/search/Igalfer [32m200[0m 8.331 ms - 8382[0m
+[0mGET /css/styles.css [36m304[0m 2.144 ms - -[0m
+[0mGET /pantones/add [36m304[0m 7.953 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.159 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.697 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.437 ms - 15637[0m
+[0mGET /css/styles.css [36m304[0m 3.588 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 9.277 ms - 19466[0m
+[0mGET /css/styles.css [36m304[0m 3.272 ms - -[0m
+[0mGET /pantones/edit/59 [32m200[0m 9.059 ms - 4498[0m
+[0mGET /css/styles.css [36m304[0m 3.007 ms - -[0m
+[0mPOST /pantones/edit/59 [36m302[0m 3.731 ms - 62[0m
+[0mGET /pantones [32m200[0m 8.525 ms - 15636[0m
+[0mGET /css/styles.css [36m304[0m 4.781 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 11.113 ms - 19472[0m
+[0mGET /css/styles.css [36m304[0m 1.027 ms - -[0m
+[0mGET /pantones/edit/49 [32m200[0m 7.853 ms - 4441[0m
+[0mGET /css/styles.css [36m304[0m 3.430 ms - -[0m
+[0mPOST /pantones/edit/49 [36m302[0m 3.220 ms - 62[0m
+[0mGET /pantones [36m304[0m 6.145 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 5.969 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 9.359 ms - 19472[0m
+[0mGET /css/styles.css [36m304[0m 6.053 ms - -[0m
+[0mGET /pantones/edit/64 [32m200[0m 11.715 ms - 4481[0m
+[0mGET /css/styles.css [36m304[0m 5.206 ms - -[0m
+[0mPOST /pantones/edit/64 [36m302[0m 3.492 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.563 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.501 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 10.244 ms - 19474[0m
+[0mGET /css/styles.css [36m304[0m 6.096 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.996 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 5.073 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.655 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.700 ms - 15637[0m
+[0mGET /css/styles.css [36m304[0m 2.308 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.281 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 3.022 ms - -[0m
+[0mGET /pantones [32m200[0m 8.271 ms - 15044[0m
+[0mGET /css/styles.css [36m304[0m 5.323 ms - -[0m
+[0mGET /pantones/search/Igalfer [32m200[0m 9.382 ms - 8370[0m
+[0mGET /css/styles.css [36m304[0m 3.562 ms - -[0m
+[0mGET /pantones/edit/71 [32m200[0m 8.526 ms - 4407[0m
+[0mGET /css/styles.css [36m304[0m 3.871 ms - -[0m
+[0mPOST /pantones/edit/71 [36m302[0m 4.866 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.577 ms - 16300[0m
+[0mGET /css/styles.css [36m304[0m 4.361 ms - -[0m
+[0mGET /pantones/search/Igalfer [32m200[0m 10.540 ms - 7373[0m
+[0mGET /css/styles.css [36m304[0m 3.724 ms - -[0m
+[0mGET /pantones/edit/67 [32m200[0m 5.332 ms - 4571[0m
+[0mGET /css/styles.css [36m304[0m 3.523 ms - -[0m
+[0mPOST /pantones/edit/67 [36m302[0m 2.707 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.593 ms - 16300[0m
+[0mGET /css/styles.css [36m304[0m 3.384 ms - -[0m
+[0mGET /pantones/search/Igalfer [32m200[0m 7.777 ms - 6212[0m
+[0mGET /css/styles.css [36m304[0m 1.896 ms - -[0m
+[0mGET /pantones/edit/68 [32m200[0m 5.734 ms - 4482[0m
+[0mGET /css/styles.css [36m304[0m 2.131 ms - -[0m
+[0mPOST /pantones/edit/68 [36m302[0m 2.847 ms - 62[0m
+[0mGET /pantones [36m304[0m 5.262 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.778 ms - -[0m
+[0mGET /pantones/search/Igalfer [32m200[0m 7.558 ms - 5140[0m
+[0mGET /css/styles.css [36m304[0m 4.510 ms - -[0m
+[0mGET /pantones/edit/70 [32m200[0m 7.287 ms - 4454[0m
+[0mGET /css/styles.css [36m304[0m 7.622 ms - -[0m
+[0mPOST /pantones/edit/70 [36m302[0m 3.516 ms - 62[0m
+[0mGET /pantones [36m304[0m 10.588 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.725 ms - -[0m
+[0mGET /pantones/search/Igalfer [32m200[0m 9.283 ms - 4096[0m
+[0mGET /css/styles.css [36m304[0m 6.293 ms - -[0m
+[0mGET /pantones/edit/69 [32m200[0m 4.335 ms - 4479[0m
+[0mGET /css/styles.css [36m304[0m 1.712 ms - -[0m
+[0mPOST /pantones/edit/69 [36m302[0m 1.985 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.246 ms - 15633[0m
+[0mGET /css/styles.css [36m304[0m 1.847 ms - -[0m
+[0mGET /pantones/add [36m304[0m 7.702 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 4.205 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.788 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.100 ms - 15634[0m
+[0mGET /css/styles.css [36m304[0m 1.850 ms - -[0m
+[0mGET /pantones/add [32m200[0m 12.772 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.444 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.970 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.162 ms - 16304[0m
+[0mGET /css/styles.css [36m304[0m 5.223 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.261 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.613 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 5.089 ms - 62[0m
+[0mGET /pantones [32m200[0m 8.383 ms - 16974[0m
+[0mGET /css/styles.css [36m304[0m 2.236 ms - -[0m
+[0mGET /pantones/add [32m200[0m 15.668 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 6.317 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.850 ms - 62[0m
+[0mGET /pantones [36m304[0m 5.382 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.949 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.821 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 4.063 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.569 ms - 62[0m
+[0mGET /pantones [36m304[0m 8.432 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.206 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.948 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 4.166 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.403 ms - 62[0m
+[0mGET /pantones [36m304[0m 6.886 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.228 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.606 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.830 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.344 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.818 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.126 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 12.817 ms - 22640[0m
+[0mGET /css/styles.css [36m304[0m 5.223 ms - -[0m
+[0mGET /pantones [32m200[0m 10.460 ms - 16381[0m
+[0mGET /css/styles.css [36m304[0m 4.339 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 11.240 ms - 20048[0m
+[0mGET /css/styles.css [36m304[0m 3.672 ms - -[0m
+[0mGET /pantones [36m304[0m 9.063 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 5.442 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.697 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.883 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 11.889 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.598 ms - 17650[0m
+[0mGET /css/styles.css [36m304[0m 2.738 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.887 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.605 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.062 ms - 62[0m
+[0mGET /pantones [36m304[0m 8.036 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.248 ms - -[0m
+[0mGET /pantones/add [32m200[0m 8.528 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.560 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.134 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.753 ms - 18314[0m
+[0mGET /css/styles.css [36m304[0m 2.736 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.396 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 4.284 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.146 ms - 62[0m
+[0mGET /pantones [36m304[0m 4.959 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.850 ms - -[0m
+[0mGET /pantones/add [32m200[0m 8.745 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.808 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.716 ms - 62[0m
+[0mGET /pantones [36m304[0m 4.991 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.663 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.445 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.656 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 16.161 ms - 62[0m
+[0mGET /pantones [32m200[0m 8.194 ms - 18969[0m
+[0mGET /css/styles.css [36m304[0m 2.543 ms - -[0m
+8943
+[0mPOST /pantones/search [32m200[0m 9.552 ms - 4100[0m
+[0mGET /css/styles.css [36m304[0m 3.987 ms - -[0m
+[0mGET /pantones/edit/68 [32m200[0m 9.767 ms - 4482[0m
+[0mGET /css/styles.css [36m304[0m 1.576 ms - -[0m
+[0mPOST /pantones/edit/68 [36m302[0m 2.276 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.060 ms - 18968[0m
+[0mGET /css/styles.css [36m304[0m 3.568 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.916 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 4.514 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 14.090 ms - 62[0m
+[0mGET /pantones [32m200[0m 4.759 ms - 18969[0m
+[0mGET /css/styles.css [36m304[0m 1.749 ms - -[0m
+257
+[0mPOST /pantones/search [32m200[0m 9.467 ms - 4079[0m
+[0mGET /css/styles.css [36m304[0m 1.789 ms - -[0m
+[0mGET /pantones/edit/78 [32m200[0m 5.494 ms - 4458[0m
+[0mGET /css/styles.css [36m304[0m 2.976 ms - -[0m
+[0mPOST /pantones/edit/78 [36m302[0m 2.362 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.165 ms - 18968[0m
+[0mGET /css/styles.css [36m304[0m 3.337 ms - -[0m
+220
+[0mPOST /pantones/search [32m200[0m 9.903 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 3.523 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.607 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 3.803 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.282 ms - 62[0m
+[0mGET /pantones [32m200[0m 4.874 ms - 18969[0m
+[0mGET /css/styles.css [36m304[0m 2.248 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.647 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.501 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.276 ms - 62[0m
+[0mGET /pantones [36m304[0m 8.097 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.332 ms - -[0m
+300
+[0mPOST /pantones/search [32m200[0m 11.185 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 1.796 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.542 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.796 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.601 ms - 62[0m
+[0mGET /pantones [36m304[0m 5.450 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.409 ms - -[0m
+7637
+[0mPOST /pantones/search [32m200[0m 10.062 ms - 4106[0m
+[0mGET /css/styles.css [36m304[0m 1.657 ms - -[0m
+[0mGET /pantones/edit/61 [32m200[0m 7.588 ms - 4490[0m
+[0mGET /css/styles.css [36m304[0m 1.188 ms - -[0m
+[0mGET /pantones [32m200[0m 8.598 ms - 18376[0m
+[0mGET /css/styles.css [36m304[0m 2.214 ms - -[0m
+[0mGET /pantones/add [32m200[0m 4.965 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 5.114 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.196 ms - 62[0m
+[0mGET /pantones [32m200[0m 4.633 ms - 18969[0m
+[0mGET /css/styles.css [36m304[0m 1.842 ms - -[0m
+[0mGET /pantones/search/ACF [32m200[0m 7.957 ms - 5149[0m
+[0mGET /css/styles.css [36m304[0m 2.785 ms - -[0m
+[0mGET /pantones [32m200[0m 10.788 ms - 18376[0m
+[0mGET /css/styles.css [36m304[0m 6.867 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.719 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.681 ms - -[0m
+326
+[0mPOST /pantones/search [32m200[0m 10.701 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 1.512 ms - -[0m
+[0mGET /pantones/add [36m304[0m 5.114 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.962 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.040 ms - 62[0m
+[0mGET /pantones [32m200[0m 8.190 ms - 18969[0m
+[0mGET /css/styles.css [36m304[0m 3.312 ms - -[0m
+[0mGET /logout [36m302[0m 1.644 ms - 56[0m
+[0mGET /login [32m200[0m 7.250 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 1.119 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 0.411 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 18.036 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 2.497 ms - -[0m
+[0mGET / [36m302[0m 21.252 ms - 62[0m
+[0mGET /pantones [32m200[0m 122.049 ms - 13138[0m
+[0mGET /css/styles.css [36m304[0m 1.422 ms - -[0m
+[0mGET /pantones [36m304[0m 10.194 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.403 ms - -[0m
+[0mGET /pantones [36m304[0m 13.443 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.754 ms - -[0m
+[0mGET /pantones [36m304[0m 11.565 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.654 ms - -[0m
+[0mGET /logout [36m302[0m 1.117 ms - 56[0m
+[0mGET /login [36m304[0m 16.578 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.338 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 2.599 ms - -[0m
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+[0mPOST /login [36m302[0m 97.995 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.837 ms - 18959[0m
+[0mGET /css/styles.css [36m304[0m 4.251 ms - -[0m
+[0mGET /pantones [32m200[0m 11.266 ms - 18376[0m
+[0mGET /css/styles.css [36m304[0m 1.780 ms - -[0m
+[0mGET /pantones [36m304[0m 12.446 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.405 ms - -[0m
+[0mGET /pantones [36m304[0m 11.738 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.046 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 19.641 ms - 22163[0m
+[0mGET /css/styles.css [36m304[0m 3.101 ms - -[0m
+[0mGET /pantones [36m304[0m 15.316 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.972 ms - -[0m
+[0mGET /pantones [36m304[0m 8.667 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.326 ms - -[0m
+[0mGET /pantones [36m304[0m 6.199 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 5.313 ms - -[0m
+[0mGET /pantones [36m304[0m 6.271 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.098 ms - -[0m
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 61.171 ms - 18376[0m
+[0mGET /css/styles.css [36m304[0m 4.975 ms - -[0m
+[0mGET /logout [36m302[0m 3.565 ms - 56[0m
+[0mGET /login [32m200[0m 8.423 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 1.350 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 0.642 ms - -[0m
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+[0mPOST /login [36m302[0m 101.311 ms - 62[0m
+[0mGET /pantones [32m200[0m 11.931 ms - 18959[0m
+[0mGET /css/styles.css [36m304[0m 3.620 ms - -[0m
+[0mGET /pantones/search/Avon [36m304[0m 26.566 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 5.844 ms - -[0m
+[0mGET /pantones/edit/24 [32m200[0m 16.451 ms - 4465[0m
+[0mGET /css/styles.css [36m304[0m 3.733 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 13.734 ms - 23677[0m
+[0mGET /css/styles.css [36m304[0m 4.706 ms - -[0m
+[0mGET /pantones/add [32m200[0m 8.027 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.221 ms - -[0m
+[0mGET /pantones [32m200[0m 9.316 ms - 18376[0m
+[0mGET /css/styles.css [36m304[0m 5.227 ms - -[0m
+[0mGET /logout [36m302[0m 1.126 ms - 56[0m
+[0mGET /login [32m200[0m 7.030 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 2.547 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 1.266 ms - -[0m
+[0mGET /pantones [32m200[0m 13.878 ms - 13138[0m
+[0mGET /css/styles.css [36m304[0m 0.710 ms - -[0m
+[0mGET /logout [36m302[0m 2.049 ms - 56[0m
+[0mGET /login [36m304[0m 12.613 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 4.984 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 0.775 ms - -[0m
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+[0mPOST /login [36m302[0m 67.671 ms - 62[0m
+[0mGET /pantones [32m200[0m 8.760 ms - 18959[0m
+[0mGET /css/styles.css [36m304[0m 3.591 ms - -[0m
+[0mGET /pantones/add [36m304[0m 6.529 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 4.227 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 10.644 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.325 ms - 18969[0m
+[0mGET /css/styles.css [36m304[0m 5.038 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 14.449 ms - 24623[0m
+[0mGET /css/styles.css [36m304[0m 4.838 ms - -[0m
+[0mGET /pantones/edit/95 [32m200[0m 7.227 ms - 4358[0m
+[0mGET /css/styles.css [36m304[0m 3.497 ms - -[0m
+[0mPOST /pantones/edit/95 [36m302[0m 4.295 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.849 ms - 18968[0m
+[0mGET /css/styles.css [36m304[0m 1.038 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.667 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 4.952 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.637 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.022 ms - 18969[0m
+[0mGET /css/styles.css [36m304[0m 2.911 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.762 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.099 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.918 ms - 62[0m
+[0mGET /pantones [36m304[0m 6.759 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 5.707 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 11.888 ms - 4117[0m
+[0mGET /css/styles.css [36m304[0m 4.374 ms - -[0m
+[0mGET /pantones/edit/96 [32m200[0m 7.058 ms - 4497[0m
+[0mGET /css/styles.css [36m304[0m 1.917 ms - -[0m
+[0mPOST /pantones/edit/96 [36m302[0m 5.923 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.160 ms - 18968[0m
+[0mGET /css/styles.css [36m304[0m 2.605 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 11.102 ms - 4093[0m
+[0mGET /css/styles.css [36m304[0m 3.614 ms - -[0m
+[0mGET /pantones/edit/95 [32m200[0m 9.865 ms - 4472[0m
+[0mGET /css/styles.css [36m304[0m 5.447 ms - -[0m
+[0mPOST /pantones/edit/95 [36m302[0m 2.332 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.946 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 5.027 ms - -[0m
+[0mGET /pantones/add [32m200[0m 8.610 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 5.363 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.750 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.666 ms - 19615[0m
+[0mGET /css/styles.css [36m304[0m 3.144 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.588 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.128 ms - -[0m
+[0mGET /pantones [32m200[0m 7.731 ms - 19022[0m
+[0mGET /css/styles.css [36m304[0m 4.522 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 15.849 ms - 3969[0m
+[0mGET /css/styles.css [36m304[0m 4.100 ms - -[0m
+[0mGET /pantones/edit/98 [32m200[0m 6.500 ms - 4348[0m
+[0mGET /css/styles.css [36m304[0m 1.308 ms - -[0m
+[0mPOST /pantones/edit/98 [36m302[0m 10.070 ms - 62[0m
+[0mGET /pantones [32m200[0m 11.999 ms - 19632[0m
+[0mGET /css/styles.css [36m304[0m 2.171 ms - -[0m
+[0mGET /pantones/add [36m304[0m 7.100 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.030 ms - -[0m
+[0mGET /pantones [32m200[0m 8.225 ms - 19040[0m
+[0mGET /css/styles.css [36m304[0m 2.020 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 14.971 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 5.732 ms - -[0m
+[0mGET /pantones/add [36m304[0m 6.628 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.807 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 5.214 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.045 ms - 20288[0m
+[0mGET /css/styles.css [36m304[0m 1.259 ms - -[0m
+[0mGET /pantones/search/Idraet [32m200[0m 10.628 ms - 9376[0m
+[0mGET /css/styles.css [36m304[0m 2.924 ms - -[0m
+[0mGET /pantones [32m200[0m 9.342 ms - 19695[0m
+[0mGET /css/styles.css [36m304[0m 3.969 ms - -[0m
+[0mGET /pantones/search/Idr [32m200[0m 8.831 ms - 3972[0m
+[0mGET /css/styles.css [36m304[0m 1.152 ms - -[0m
+[0mGET /pantones/edit/99 [32m200[0m 4.922 ms - 4351[0m
+[0mGET /css/styles.css [36m304[0m 3.805 ms - -[0m
+[0mPOST /pantones/edit/99 [36m302[0m 2.814 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.083 ms - 19632[0m
+[0mGET /css/styles.css [36m304[0m 2.837 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 14.217 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 3.151 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.421 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.117 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.550 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.113 ms - 19633[0m
+[0mGET /css/styles.css [36m304[0m 2.366 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 8.972 ms - 4108[0m
+[0mGET /css/styles.css [36m304[0m 4.181 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 8.251 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 1.470 ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='1895'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='1895'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='1895'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='1895'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='1895'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='1895'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.410 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.367 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.104 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.371 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.869 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 11.400 ms - 4066[0m
+[0mGET /css/styles.css [36m304[0m 1.886 ms - -[0m
+[0mGET /pantones/edit/4 [32m200[0m 7.420 ms - 4450[0m
+[0mGET /css/styles.css [36m304[0m 1.529 ms - -[0m
+[0mPOST /pantones/edit/4 [36m302[0m 3.800 ms - 62[0m
+[0mGET /pantones [32m200[0m 11.672 ms - 19632[0m
+[0mGET /css/styles.css [36m304[0m 1.958 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 9.266 ms - 4074[0m
+[0mGET /css/styles.css [36m304[0m 5.094 ms - -[0m
+[0mGET /pantones/edit/5 [32m200[0m 7.092 ms - 4458[0m
+[0mGET /css/styles.css [36m304[0m 3.547 ms - -[0m
+[0mPOST /pantones/edit/5 [36m302[0m 5.041 ms - 62[0m
+[0mGET /pantones [36m304[0m 5.110 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.414 ms - -[0m
+[0mGET /pantones/search/Lannot [32m200[0m 8.415 ms - 5189[0m
+[0mGET /css/styles.css [36m304[0m 3.763 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 10.202 ms - 4112[0m
+[0mGET /css/styles.css [36m304[0m 1.668 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 9.277 ms - 4136[0m
+[0mGET /css/styles.css [36m304[0m 1.523 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 7.641 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 2.266 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.177 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.100 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.462 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.199 ms - 20288[0m
+[0mGET /css/styles.css [36m304[0m 1.847 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.306 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.240 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 1.978 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.989 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.725 ms - -[0m
+[0mGET /pantones/add [32m200[0m 12.737 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 3.020 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.265 ms - 62[0m
+[0mGET /pantones [36m304[0m 8.576 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.292 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.045 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.152 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.185 ms - 62[0m
+[0mGET /pantones [36m304[0m 8.866 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.557 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 11.602 ms - 22188[0m
+[0mGET /css/styles.css [36m304[0m 3.554 ms - -[0m
+[0mGET /pantones [32m200[0m 9.378 ms - 19695[0m
+[0mGET /css/styles.css [36m304[0m 1.473 ms - -[0m
+[0mGET /pantones/add [32m200[0m 17.906 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.637 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.147 ms - 62[0m
+[0mGET /pantones [32m200[0m 13.695 ms - 20288[0m
+[0mGET /css/styles.css [36m304[0m 1.984 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.872 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 6.835 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.853 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.977 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 8.765 ms - -[0m
+[0mGET /pantones/add [32m200[0m 9.928 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 6.142 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.064 ms - 62[0m
+[0mGET /pantones [32m200[0m 11.570 ms - 20946[0m
+[0mGET /css/styles.css [36m304[0m 1.816 ms - -[0m
+[0mGET /pantones/add [32m200[0m 8.677 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 4.242 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 9.719 ms - 62[0m
+[0mGET /pantones [36m304[0m 9.949 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.387 ms - -[0m
+[0mGET /pantones/add [32m200[0m 8.017 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.988 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.288 ms - 62[0m
+[0mGET /pantones [36m304[0m 5.940 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.478 ms - -[0m
+[0mGET /pantones/add [32m200[0m 8.884 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 4.591 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.123 ms - 62[0m
+[0mGET /pantones [36m304[0m 10.043 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.955 ms - -[0m
+[0mGET /logout [36m302[0m 0.768 ms - 56[0m
+[0mGET /login [32m200[0m 5.064 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 1.783 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 2.173 ms - -[0m
+[0mGET /pantones [32m200[0m 9.663 ms - 14460[0m
+[0mGET /css/styles.css [36m304[0m 1.283 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 9.355 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 78.598 ms - 150[0m
+[0mGET /pantones/search/Avon [32m200[0m 85.849 ms - 18124[0m
+[0mGET /css/styles.css [36m304[0m 2.335 ms - -[0m
+[0mGET /pantones [36m304[0m 16.425 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.884 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 14.301 ms - 21964[0m
+[0mGET /css/styles.css [36m304[0m 0.742 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 4.847 ms - -[0m
+[0mGET /pantones [36m304[0m 23.737 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.835 ms - -[0m
+[0mGET /logout [36m302[0m 8.885 ms - 56[0m
+[0mGET /login [32m200[0m 13.131 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 0.973 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 0.814 ms - -[0m
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+[0mPOST /login [36m302[0m 79.349 ms - 62[0m
+[0mGET /pantones [32m200[0m 10.570 ms - 20936[0m
+[0mGET /css/styles.css [36m304[0m 1.622 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 25.994 ms - 5140[0m
+[0mGET /css/styles.css [36m304[0m 2.881 ms - -[0m
+[0mGET /pantones/edit/69 [32m200[0m 7.746 ms - 4479[0m
+[0mGET /css/styles.css [36m304[0m 5.659 ms - -[0m
+[0mPOST /pantones/edit/69 [36m302[0m 8.058 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.662 ms - 20945[0m
+[0mGET /css/styles.css [36m304[0m 1.254 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 12.504 ms - 4178[0m
+[0mGET /css/styles.css [36m304[0m 2.581 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.666 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.517 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.590 ms - 62[0m
+[0mGET /pantones [32m200[0m 9.742 ms - 20946[0m
+[0mGET /css/styles.css [36m304[0m 0.929 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 11.865 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 2.154 ms - -[0m
+[0mGET /pantones/add [32m200[0m 12.760 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.829 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.255 ms - 62[0m
+[0mGET /pantones [36m304[0m 9.702 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.376 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 13.703 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 1.656 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 6.535 ms - 4080[0m
+[0mGET /css/styles.css [36m304[0m 2.767 ms - -[0m
+[0mGET /pantones/edit/99 [32m200[0m 7.217 ms - 4461[0m
+[0mGET /css/styles.css [36m304[0m 1.022 ms - -[0m
+[0mPOST /pantones/edit/99 [36m302[0m 3.656 ms - 62[0m
+[0mGET /pantones [32m200[0m 8.943 ms - 20945[0m
+[0mGET /css/styles.css [36m304[0m 3.245 ms - -[0m
+[0mGET /pantones/search/Idraet [32m200[0m 11.900 ms - 13713[0m
+[0mGET /css/styles.css [36m304[0m 3.601 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.289 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.886 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.723 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.989 ms - 20946[0m
+[0mGET /css/styles.css [36m304[0m 7.042 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 11.640 ms - 4083[0m
+[0mGET /css/styles.css [36m304[0m 3.233 ms - -[0m
+[0mGET /pantones/edit/104 [32m200[0m 4.840 ms - 4463[0m
+[0mGET /css/styles.css [36m304[0m 1.818 ms - -[0m
+[0mGET /pantones [32m200[0m 7.273 ms - 20353[0m
+[0mGET /css/styles.css [36m304[0m 2.650 ms - -[0m
+[0mGET /pantones/add [32m200[0m 10.808 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 3.769 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.493 ms - 62[0m
+[0mGET /pantones [32m200[0m 10.713 ms - 20946[0m
+[0mGET /css/styles.css [36m304[0m 1.417 ms - -[0m
+[0mGET /pantones [32m200[0m 7.900 ms - 20353[0m
+[0mGET /css/styles.css [36m304[0m 1.010 ms - -[0m
+[0mGET /pantones/search/Idraet [32m200[0m 12.711 ms - 14830[0m
+[0mGET /css/styles.css [36m304[0m 3.843 ms - -[0m
+[0mGET /pantones [36m304[0m 11.633 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.850 ms - -[0m
+[0mGET /pantones/search/Cia.%20de%20Lapices [32m200[0m 12.519 ms - 7402[0m
+[0mGET /css/styles.css [36m304[0m 2.556 ms - -[0m
+[0mGET /pantones/add [32m200[0m 10.555 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.785 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 13.470 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 1.647 ms - -[0m
+[0mGET /pantones [36m304[0m 8.003 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.457 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 10.901 ms - 26906[0m
+[0mGET /css/styles.css [36m304[0m 3.483 ms - -[0m
+[0mGET /pantones/add [36m304[0m 6.753 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.988 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 5.731 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.212 ms - 20946[0m
+[0mGET /css/styles.css [36m304[0m 1.552 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 9.430 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 3.537 ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='7609'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='7609'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='7609'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='7609'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='7609'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='7609'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [32m200[0m 6.686 ms - 20353[0m
+[0mGET /css/styles.css [36m304[0m 4.295 ms - -[0m
+[0mGET /pantones/search/Natura [32m200[0m 12.360 ms - 27988[0m
+[0mGET /css/styles.css [36m304[0m 7.747 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 6.324 ms - 4098[0m
+[0mGET /css/styles.css [36m304[0m 3.915 ms - -[0m
+[0mGET /pantones/edit/95 [32m200[0m 7.970 ms - 4479[0m
+[0mGET /css/styles.css [36m304[0m 2.531 ms - -[0m
+[0mPOST /pantones/edit/95 [36m302[0m 3.024 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.358 ms - 20945[0m
+[0mGET /css/styles.css [36m304[0m 2.845 ms - -[0m
+[0mGET /pantones/add [32m200[0m 4.725 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.486 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 7.757 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.524 ms - 21610[0m
+[0mGET /css/styles.css [36m304[0m 2.034 ms - -[0m
+[0mGET /pantones/add [32m200[0m 8.634 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 3.708 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.174 ms - 62[0m
+[0mGET /pantones [36m304[0m 8.324 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.773 ms - -[0m
+[0mGET /pantones/search/ACF [32m200[0m 10.335 ms - 5147[0m
+[0mGET /css/styles.css [36m304[0m 1.443 ms - -[0m
+[0mGET /pantones/edit/88 [32m200[0m 6.682 ms - 4480[0m
+[0mGET /css/styles.css [36m304[0m 2.868 ms - -[0m
+[0mPOST /pantones/edit/88 [36m302[0m 2.622 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.900 ms - 22264[0m
+[0mGET /css/styles.css [36m304[0m 3.118 ms - -[0m
+[0mGET /pantones/search/ACF [32m200[0m 7.615 ms - 4077[0m
+[0mGET /css/styles.css [36m304[0m 11.280 ms - -[0m
+[0mGET /pantones/edit/93 [32m200[0m 6.244 ms - 4460[0m
+[0mGET /css/styles.css [36m304[0m 1.810 ms - -[0m
+[0mPOST /pantones/edit/93 [36m302[0m 2.616 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.809 ms - 21609[0m
+[0mGET /css/styles.css [36m304[0m 3.535 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.113 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.790 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.247 ms - 62[0m
+[0mGET /pantones [32m200[0m 9.307 ms - 21610[0m
+[0mGET /css/styles.css [36m304[0m 2.314 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.965 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 6.746 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 6.225 ms - 62[0m
+[0mGET /pantones [36m304[0m 4.725 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.891 ms - -[0m
+[0mGET /pantones/search/Loval [32m200[0m 9.197 ms - 18183[0m
+[0mGET /css/styles.css [36m304[0m 2.248 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.866 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 3.534 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.004 ms - 62[0m
+[0mGET /pantones [36m304[0m 5.366 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.929 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.049 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.740 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 8.730 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 2.525 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 7.217 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 1.412 ms - -[0m
+[0mGET /pantones/add [36m304[0m 5.973 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.513 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.222 ms - 62[0m
+[0mGET /pantones [36m304[0m 6.218 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.552 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.105 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 4.583 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.555 ms - 62[0m
+[0mGET /pantones [36m304[0m 9.247 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.079 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 10.300 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 2.308 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.070 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 3.792 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.622 ms - 62[0m
+[0mGET /pantones [36m304[0m 5.937 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.427 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.762 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 3.961 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.069 ms - 62[0m
+[0mGET /pantones [36m304[0m 8.222 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.448 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 10.580 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 2.667 ms - -[0m
+[0mPOST /pantones/search [32m200[0m 7.195 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 1.442 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.352 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 4.818 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.147 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.154 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.502 ms - -[0m
+[0mGET /pantones/search/Laca [32m200[0m 10.291 ms - 7214[0m
+[0mGET /css/styles.css [36m304[0m 4.349 ms - -[0m
+[0mGET /pantones/add [32m200[0m 5.784 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 4.651 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.669 ms - 62[0m
+[0mGET /pantones [36m304[0m 5.257 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.533 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.089 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.521 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.032 ms - 62[0m
+[0mGET /pantones [32m200[0m 7.377 ms - 22277[0m
+[0mGET /css/styles.css [36m304[0m 1.512 ms - -[0m
+[0mGET /logout [36m302[0m 11.843 ms - 56[0m
+[0mGET /login [32m200[0m 26.811 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 2.517 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 0.715 ms - -[0m
+[0mGET /pantones [32m200[0m 14.069 ms - 15350[0m
+[0mGET /css/styles.css [36m304[0m 1.193 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.570 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 6.986 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 14.761 ms - -[0m
+[0mGET /pantones [36m304[0m 162.288 ms - -[0m
+[0mGET /pantones [32m200[0m 8.365 ms - 15350[0m
+[0mGET /css/styles.css [32m200[0m 23.103 ms - 322[0m
+[0mGET /pantones [36m304[0m 9.110 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.599 ms - -[0m
+[0mGET /pantones [36m304[0m 10.449 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.119 ms - -[0m
+[0mGET /logout [36m302[0m 1.428 ms - 56[0m
+[0mGET /login [32m200[0m 8.150 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 0.734 ms - -[0m
+[0mGET /img/logoApp.png [32m200[0m 1.771 ms - 332971[0m
+[0mGET /pantones [36m304[0m 127.586 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.647 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 5.157 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 20.617 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 14.334 ms - -[0m
+color
+[0mPOST /pantones/search [32m200[0m 167.601 ms - 3715[0m
+[0mGET /css/styles.css [36m304[0m 2.099 ms - -[0m
+color
+[0mPOST /pantones/search [32m200[0m 10.533 ms - 3154[0m
+[0mGET /css/styles.css [36m304[0m 0.910 ms - -[0m
+[0mGET /logout [36m302[0m 4.152 ms - 56[0m
+[0mGET /login [32m200[0m 4.382 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 0.864 ms - -[0m
+[0mGET /img/logoApp.png [32m200[0m 8.795 ms - 332971[0m
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+[0mPOST /login [36m302[0m 79.178 ms - 62[0m
+[0mGET /pantones [32m200[0m 12.681 ms - 22267[0m
+[0mGET /css/styles.css [36m304[0m 3.657 ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='7609'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='7609'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='7609'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='7609'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='7609'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='7609'"
+}
+Server on port:  4000
+DB is Connected
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='7609'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='7609'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='7609'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [32m200[0m 70.087 ms - 21684[0m
+[0mGET /css/styles.css [36m304[0m 5.185 ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='7609'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='7609'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='7609'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mPOST /pantones/search [32m200[0m 18.815 ms - 4097[0m
+[0mGET /css/styles.css [36m304[0m 4.435 ms - -[0m
+[0mGET /pantones [36m304[0m 16.344 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.143 ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='7609'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR:='7609'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR:='7609'"
+}
+Server on port:  4000
+DB is Connected
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: || COLOR ='7609'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: || COLOR ='7609'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: || COLOR ='7609'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [36m304[0m 40.235 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.487 ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: || COLOR ='7609'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: || COLOR ='7609'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: || COLOR ='7609'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [36m304[0m 19.168 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.390 ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: || COLOR ='7609'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: || COLOR ='7609'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: || COLOR ='7609'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [36m304[0m 17.792 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.142 ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: || COLOR ='7609'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: || COLOR ='7609'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: || COLOR ='7609'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [36m304[0m 13.994 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.241 ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: || COLOR ='3125'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: || COLOR ='3125'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: || COLOR ='3125'"
+}
+[0mGET /css/styles.css [36m304[0m 2.408 ms - -[0m
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [36m304[0m 16.668 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.479 ms - -[0m
+Server on port:  4000
+DB is Connected
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='7609'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='7609'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='7609'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [36m304[0m 38.648 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 5.698 ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='713'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='713'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='713'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='713'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='713'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='713'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [36m304[0m 13.155 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.861 ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='7609'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='7609'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='7609'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /logout [36m302[0m 2.879 ms - 56[0m
+[0mGET /login [32m200[0m 12.302 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 0.906 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 0.550 ms - -[0m
+[0mGET /pantones [32m200[0m 12.590 ms - 15350[0m
+[0mGET /css/styles.css [36m304[0m 2.990 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 4.433 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 47.768 ms - 18124[0m
+[0mGET /css/styles.css [36m304[0m 1.978 ms - -[0m
+[0mGET /pantones [36m304[0m 14.756 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.511 ms - -[0m
+[0mGET /logout [36m302[0m 3.212 ms - 56[0m
+[0mGET /login [36m304[0m 10.947 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.027 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 0.947 ms - -[0m
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+[0mPOST /login [36m302[0m 93.734 ms - 62[0m
+[0mGET /pantones [32m200[0m 9.327 ms - 22267[0m
+[0mGET /css/styles.css [36m304[0m 1.306 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.024 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 4.957 ms - -[0m
+color
+[0mPOST /pantones/search [32m200[0m 13.390 ms - 5191[0m
+[0mGET /css/styles.css [36m304[0m 2.092 ms - -[0m
+[0mGET /pantones/add [36m304[0m 8.117 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.630 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 9.227 ms - 62[0m
+[0mGET /pantones [32m200[0m 6.422 ms - 22277[0m
+[0mGET /css/styles.css [36m304[0m 2.583 ms - -[0m
+[0mGET /pantones/add [32m200[0m 8.670 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 6.365 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 5.179 ms - 62[0m
+[0mGET /pantones [36m304[0m 6.082 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.618 ms - -[0m
+[0mGET /pantones/add [32m200[0m 9.935 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.463 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.381 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.615 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.622 ms - -[0m
+[0mGET /pantones/add [32m200[0m 6.316 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 5.564 ms - -[0m
+color
+[0mPOST /pantones/search [32m200[0m 8.393 ms - 4035[0m
+[0mGET /css/styles.css [36m304[0m 4.143 ms - -[0m
+[0mGET /pantones/edit/92 [32m200[0m 9.371 ms - 4418[0m
+[0mGET /css/styles.css [36m304[0m 1.355 ms - -[0m
+[0mPOST /pantones/edit/92 [36m302[0m 4.042 ms - 62[0m
+[0mGET /pantones [32m200[0m 5.623 ms - 22276[0m
+[0mGET /css/styles.css [36m304[0m 3.020 ms - -[0m
+[0mGET /pantones/add [36m304[0m 6.057 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.240 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 4.435 ms - 62[0m
+[0mGET /pantones [32m200[0m 8.891 ms - 22277[0m
+[0mGET /css/styles.css [36m304[0m 2.526 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 11.244 ms - 22188[0m
+[0mGET /css/styles.css [36m304[0m 2.501 ms - -[0m
+[0mGET /logout [36m302[0m 1.905 ms - 56[0m
+[0mGET /login [32m200[0m 4.589 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 0.922 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 1.589 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 4.579 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 1.144 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 8.741 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 1.368 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 5.288 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 1.051 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 4.476 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 2.617 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 67.066 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 13.787 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 15.278 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 15.061 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 2.497 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 15.495 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 2.234 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 17.213 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 2.099 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 35.164 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 12.205 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 1.656 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 11.986 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 3.093 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 11.989 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 0.934 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 11.558 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 1.989 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 23.624 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 1.508 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 14.537 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 21.323 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 2.410 ms - -[0m
+[0mGET /logout [36m302[0m 25.914 ms - 56[0m
+[0mGET /login [36m304[0m 68.438 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.381 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 1.298 ms - -[0m
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+[0mPOST /login [36m302[0m 106.769 ms - 62[0m
+[0mGET /pantones [32m200[0m 19.165 ms - 22267[0m
+[0mGET /css/styles.css [36m304[0m 6.973 ms - -[0m
+color
+[0mPOST /pantones/search [32m200[0m 28.062 ms - 4078[0m
+[0mGET /css/styles.css [36m304[0m 1.780 ms - -[0m
+color
+[0mPOST /pantones/search [32m200[0m 9.931 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 1.049 ms - -[0m
+color
+[0mPOST /pantones/search [32m200[0m 11.518 ms - 3300[0m
+[0mGET /css/styles.css [36m304[0m 1.561 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.316 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.609 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 7.399 ms - 62[0m
+[0mGET /pantones [32m200[0m 10.174 ms - 22277[0m
+[0mGET /css/styles.css [36m304[0m 2.279 ms - -[0m
+[0mGET /pantones/add [32m200[0m 7.710 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 1.879 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 8.548 ms - 62[0m
+[0mGET /pantones [36m304[0m 7.152 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.387 ms - -[0m
+[0mGET /pantones/add [32m200[0m 8.729 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 3.683 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 2.214 ms - 62[0m
+[0mGET /pantones [36m304[0m 8.228 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.087 ms - -[0m
+[0mGET /pantones/add [32m200[0m 18.505 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.183 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 5.740 ms - 62[0m
+[0mGET /pantones [32m200[0m 8.730 ms - 22947[0m
+[0mGET /css/styles.css [36m304[0m 2.583 ms - -[0m
+[0mGET /pantones/add [32m200[0m 9.147 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 3.966 ms - -[0m
+[0mPOST /pantones/add [36m302[0m 3.199 ms - 62[0m
+[0mGET /pantones [36m304[0m 10.118 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.814 ms - -[0m
+[0mGET /logout [36m302[0m 4.041 ms - 56[0m
+[0mGET /login [32m200[0m 6.605 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 1.284 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 0.813 ms - -[0m
+[0mGET /login [32m200[0m 44.450 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 3.742 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 2.085 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 15.037 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 2.141 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 5.769 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 18.354 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 23.960 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 26.480 ms - -[0m
+[0mGET /pantones [32m200[0m 118.197 ms - 15798[0m
+[0mGET /css/styles.css [36m304[0m 1.341 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 10.690 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 11.180 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 12.735 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 12.089 ms - -[0m
+[0mGET /pantones/search/Biotoscana [32m200[0m 111.784 ms - 3687[0m
+[0mGET /css/styles.css [36m304[0m 0.747 ms - -[0m
+[0mGET /pantones [36m304[0m 24.584 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.399 ms - -[0m
+[0mGET /pantones/search/Cia.%20de%20Lapices [32m200[0m 12.380 ms - 10625[0m
+[0mGET /css/styles.css [36m304[0m 0.726 ms - -[0m
+[0mGET /pantones [36m304[0m 18.513 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.138 ms - -[0m
+[0mGET /pantones/search/Mary%20Kay [32m200[0m 15.554 ms - 4651[0m
+[0mGET /css/styles.css [36m304[0m 1.624 ms - -[0m
+[0mGET /pantones [36m304[0m 8.309 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.151 ms - -[0m
+[0mGET /pantones/search/Laca [32m200[0m 14.940 ms - 7056[0m
+[0mGET /css/styles.css [36m304[0m 1.377 ms - -[0m
+[0mGET /pantones [36m304[0m 14.024 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.663 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 18.931 ms - 18142[0m
+[0mGET /css/styles.css [36m304[0m 2.026 ms - -[0m
+[0mGET /pantones [36m304[0m 12.530 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.668 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 11.510 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 14.153 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 18.843 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 13.983 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 19.086 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.688 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 21.135 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 15.212 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 20.317 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 115.365 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 15.633 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 60.268 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 17.967 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 79.238 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.618 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.586 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 20.844 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 43.498 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 10.280 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 15.848 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 21.205 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 41.222 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 25.693 ms - -[0m
+Server on port:  4000
+DB is Connected
+[0mGET /css/styles.css [36m304[0m 18.708 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 6.811 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 18.864 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 3.472 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 8.805 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 13.256 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 31.577 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 4.645 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 13.148 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 9.279 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 5.675 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 1.764 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 16.806 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 16.644 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 24.668 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 10.625 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 4.296 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 22.088 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 10.802 ms - 150[0m
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 111.502 ms - 15798[0m
+[0mGET /css/styles.css [32m200[0m 4.662 ms - 322[0m
+[0mGET /favicon.ico [33m404[0m 2.021 ms - 150[0m
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 237.821 ms - 15798[0m
+[0mGET /css/styles.css [32m200[0m 10.175 ms - 322[0m
+[0mGET /favicon.ico [33m404[0m 5.227 ms - 150[0m
+[0mGET /pantones [32m200[0m 122.316 ms - 15798[0m
+[0mGET /css/styles.css [32m200[0m 2.239 ms - 322[0m
+[0mGET /favicon.ico [33m404[0m 3.496 ms - 150[0m
+[0mGET /pantones [32m200[0m 98.231 ms - 15798[0m
+[0mGET /css/styles.css [32m200[0m 3.111 ms - 322[0m
+[0mGET /favicon.ico [33m404[0m 5.726 ms - 150[0m
+[0mGET /logout [36m302[0m 45.107 ms - 56[0m
+[0mGET /login [32m200[0m 13.409 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 6.026 ms - -[0m
+[0mGET /img/logoApp.png [32m200[0m 2.178 ms - 332971[0m
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+[0mPOST /login [36m302[0m 178.802 ms - 62[0m
+[0mGET /pantones [32m200[0m 15.972 ms - 22937[0m
+[0mGET /css/styles.css [36m304[0m 2.017 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 25.941 ms - 22206[0m
+[0mGET /css/styles.css [36m304[0m 3.081 ms - -[0m
+[0mGET /pantones/edit/4 [32m200[0m 19.551 ms - 4474[0m
+[0mGET /css/styles.css [36m304[0m 2.304 ms - -[0m
+[0mPOST /pantones/edit/4 [36m302[0m 50.720 ms - 62[0m
+[0mGET /pantones [32m200[0m 13.294 ms - 22946[0m
+[0mGET /css/styles.css [36m304[0m 1.609 ms - -[0m
+[0mGET /pantones/add [32m200[0m 10.374 ms - 4595[0m
+[0mGET /css/styles.css [36m304[0m 2.104 ms - -[0m
+[0mGET /pantones [32m200[0m 10.469 ms - 22354[0m
+[0mGET /css/styles.css [36m304[0m 2.178 ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='713'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='713'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='713'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='713'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='713'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='713'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='7609'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:73:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='7609'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='7609'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+color
+[0mPOST /pantones/search [32m200[0m 11.618 ms - 5193[0m
+[0mGET /css/styles.css [36m304[0m 4.171 ms - -[0m
+[0mGET /pantones [36m304[0m 11.281 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.834 ms - -[0m
+color
+[0mPOST /pantones/search [32m200[0m 9.072 ms - 4098[0m
+[0mGET /css/styles.css [36m304[0m 5.164 ms - -[0m
+cliente
+[0mPOST /pantones/search [32m200[0m 15.372 ms - 22207[0m
+[0mGET /css/styles.css [36m304[0m 3.886 ms - -[0m
+[0mGET /logout [36m302[0m 1.267 ms - 56[0m
+[0mGET /login [32m200[0m 5.669 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 0.861 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 0.896 ms - -[0m
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+B3r23rk3rk $2a$10$nrrNuCz4mBa8HqOeGJutN.dGAw6yBzF5Ird3HYZ7WKWq5HMGZtC9G
+[0mPOST /login [36m302[0m 70.379 ms - 62[0m
+[0mGET /pantones [32m200[0m 9.131 ms - 22937[0m
+[0mGET /css/styles.css [36m304[0m 2.164 ms - -[0m
+[0mGET /pantones/search/Finadiet [32m200[0m 11.722 ms - 4052[0m
+[0mGET /css/styles.css [36m304[0m 1.568 ms - -[0m
+[0mGET /pantones [32m200[0m 8.128 ms - 22354[0m
+[0mGET /css/styles.css [36m304[0m 1.042 ms - -[0m
+[0mGET /pantones/search/Cia.%20de%20Lapices [32m200[0m 8.625 ms - 12753[0m
+[0mGET /css/styles.css [36m304[0m 3.062 ms - -[0m
+[0mGET /pantones [36m304[0m 9.421 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.695 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 11.063 ms - 22207[0m
+[0mGET /css/styles.css [36m304[0m 1.080 ms - -[0m
+[0mGET /pantones/add [36m304[0m 7.099 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.346 ms - -[0m
+cliente
+[0mPOST /pantones/search [32m200[0m 13.465 ms - 22207[0m
+[0mGET /css/styles.css [36m304[0m 1.357 ms - -[0m
+color
+[0mPOST /pantones/search [32m200[0m 9.857 ms - 5193[0m
+[0mGET /css/styles.css [36m304[0m 1.228 ms - -[0m
+[0mGET /pantones/edit/114 [32m200[0m 12.871 ms - 4521[0m
+[0mGET /css/styles.css [36m304[0m 2.597 ms - -[0m
+[0mPOST /pantones/edit/114 [36m302[0m 9.265 ms - 62[0m
+[0mGET /pantones [32m200[0m 10.177 ms - 22946[0m
+[0mGET /css/styles.css [36m304[0m 3.108 ms - -[0m
+[0mGET /pantones/search/Eriochem [32m200[0m 15.616 ms - 6155[0m
+[0mGET /css/styles.css [36m304[0m 2.582 ms - -[0m
+[0mGET /pantones [32m200[0m 10.988 ms - 22354[0m
+[0mGET /css/styles.css [36m304[0m 0.989 ms - -[0m
+[0mGET /logout [36m302[0m 1.975 ms - 56[0m
+[0mGET /login [32m200[0m 5.397 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 0.507 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 0.489 ms - -[0m
+[0mGET /login [32m200[0m 23.527 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 0.959 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 0.837 ms - -[0m
+Server on port:  4000
+DB is Connected
+Server on port:  4000
+DB is Connected
+[0mGET /login [32m200[0m 120.770 ms - 3810[0m
+[0mGET /css/styles.css [32m200[0m 10.278 ms - 322[0m
+[0mGET /img/logoApp.png [32m200[0m 2.997 ms - 332971[0m
+[0mGET /favicon.ico [33m404[0m 3.981 ms - 150[0m
+[0mGET /pantones [32m200[0m 88.025 ms - 15798[0m
+[0mGET /css/styles.css [36m304[0m 1.778 ms - -[0m
+[0mGET /pantones [32m200[0m 154.311 ms - 15798[0m
+[0mGET /css/styles.css [36m304[0m 2.788 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 2.860 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 2.070 ms - -[0m
+[0mGET /pantones [36m304[0m 21.225 ms - -[0m
+[0mGET /pantones/search/Mizu [32m200[0m 25.751 ms - 6279[0m
+[0mGET /css/styles.css [36m304[0m 1.915 ms - -[0m
+[0mGET /pantones [36m304[0m 13.792 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.225 ms - -[0m
+[0mGET /logout [36m302[0m 9.731 ms - 56[0m
+[0mGET /login [32m200[0m 4.309 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 0.575 ms - -[0m
+[0mGET /img/logoApp.png [32m200[0m 2.249 ms - 332971[0m
+[0mGET /login [32m200[0m 19.641 ms - 3810[0m
+[0mGET /css/styles.css [36m304[0m 0.873 ms - -[0m
+[0mGET /img/logoApp.png [32m200[0m 1.259 ms - 332971[0m
+[0mGET /css/styles.css [36m304[0m 34.471 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 2.474 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 11.687 ms - 150[0m
+[0mGET /pantones [36m304[0m 183.880 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.807 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.024 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 48.645 ms - 18161[0m
+[0mGET /css/styles.css [36m304[0m 0.907 ms - -[0m
+[0mGET /pantones [36m304[0m 15.609 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.636 ms - -[0m
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [36m304[0m 73.560 ms - -[0m
+[0mGET /css/styles.css [32m200[0m 7.075 ms - 370[0m
+[0mGET /css/styles.css [36m304[0m 2.854 ms - -[0m
+[0mGET /pantones/search/Biotoscana [32m200[0m 41.585 ms - 3688[0m
+[0mGET /css/styles.css [36m304[0m 1.750 ms - -[0m
+[0mGET /pantones/search/Biotoscana [32m200[0m 151.986 ms - 3688[0m
+[0mGET /css/styles.css [32m200[0m 10.222 ms - 370[0m
+[0mGET /favicon.ico [33m404[0m 12.369 ms - 150[0m
+[0mGET /pantones [32m200[0m 19.772 ms - 15798[0m
+[0mGET /css/styles.css [36m304[0m 0.984 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.575 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 16.569 ms - -[0m
+[0mGET /pantones [36m304[0m 36.881 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.077 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.024 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 15.032 ms - 18161[0m
+[0mGET /css/styles.css [36m304[0m 2.034 ms - -[0m
+[0mGET /pantones [36m304[0m 10.334 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.821 ms - -[0m
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 78.598 ms - 15808[0m
+[0mGET /css/styles.css [36m304[0m 5.872 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.623 ms - -[0m
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 43.979 ms - 15822[0m
+[0mGET /css/styles.css [36m304[0m 3.967 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.121 ms - -[0m
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 42.664 ms - 15813[0m
+[0mGET /css/styles.css [36m304[0m 2.578 ms - -[0m
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 41.806 ms - 15803[0m
+[0mGET /css/styles.css [36m304[0m 5.376 ms - -[0m
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 43.622 ms - 15841[0m
+[0mGET /css/styles.css [36m304[0m 3.718 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.095 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 3.632 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.951 ms - -[0m
+[0mGET /pantones [36m304[0m 31.773 ms - -[0m
+[0mGET /pantones [36m304[0m 27.258 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.321 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.237 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 26.953 ms - 18204[0m
+[0mGET /css/styles.css [36m304[0m 1.409 ms - -[0m
+[0mGET /pantones [36m304[0m 22.133 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.754 ms - -[0m
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 71.051 ms - 15830[0m
+[0mGET /css/styles.css [36m304[0m 4.813 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.597 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 18.765 ms - 18193[0m
+[0mGET /css/styles.css [36m304[0m 1.893 ms - -[0m
+[0mGET /pantones [36m304[0m 20.217 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.368 ms - -[0m
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 42.224 ms - 15794[0m
+[0mGET /css/styles.css [36m304[0m 3.363 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.698 ms - -[0m
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 44.190 ms - 15789[0m
+[0mGET /css/styles.css [36m304[0m 2.264 ms - -[0m
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 74.835 ms - 15788[0m
+[0mGET /css/styles.css [36m304[0m 3.166 ms - -[0m
+[0mGET /logout [36m302[0m 2.863 ms - 56[0m
+[0mGET /login [32m200[0m 11.567 ms - 3800[0m
+[0mGET /css/styles.css [36m304[0m 3.511 ms - -[0m
+[0mGET /img/logoApp.png [36m304[0m 3.196 ms - -[0m
+[0mGET /pantones [36m304[0m 12.043 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.424 ms - -[0m
+Server on port:  4000
+DB is Connected
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 43.392 ms - 15788[0m
+[0mGET /css/styles.css [36m304[0m 2.275 ms - -[0m
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 41.399 ms - 15788[0m
+[0mGET /css/styles.css [36m304[0m 3.055 ms - -[0m
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 44.322 ms - 15784[0m
+[0mGET /css/styles.css [36m304[0m 2.349 ms - -[0m

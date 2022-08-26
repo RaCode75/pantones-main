@@ -37,14 +37,14 @@ router.get('/',  async (req, res) => {
             const userId = 0
             const user = await pool.query('SELECT username, permisos FROM users WHERE ID=?', [userId])
             const data = user[0];
-            const pantones = await pool.query('SELECT DISTINCT cliente FROM clients');
+            const pantones = await pool.query('SELECT DISTINCT cliente FROM clients ORDER BY cliente ASC');
             const allData = {pantones, ...data}
             res.render('pantones/list', { allData });
         }else{
             const userId = req.user.id
             const user = await pool.query('SELECT username, permisos FROM users WHERE ID=?', [userId])
             const data = user[0];
-            const pantones = await pool.query('SELECT DISTINCT cliente  FROM clients');
+            const pantones = await pool.query('SELECT DISTINCT cliente  FROM clients ORDER BY cliente ASC');
             const allData = {pantones, ...data}
             res.render('pantones/list', { allData });
            
@@ -56,13 +56,13 @@ router.get('/',  async (req, res) => {
 
 router.post('/search', async(req, res) =>{
     const bus = req.body.busqueda
-    const opt = req.body.opt 
+    const opt = req.body.opt || color
     try{
         if(!req.user){
             const userId = 0
             const user = await pool.query('SELECT username, permisos FROM users WHERE ID=?', [userId])
             const data = user[0];
-            const pantones = await pool.query(`SELECT * FROM clients WHERE ${opt.toUpperCase()}=?`,bus);
+            const pantones = await pool.query(`SELECT * FROM clients WHERE ${opt.toUpperCase()} =?`,bus);
             const allData = {pantones, ...data}
             console.log(opt)
             res.render('pantones/search', { allData });
@@ -70,10 +70,10 @@ router.post('/search', async(req, res) =>{
             const userId = req.user.id
             const user = await pool.query('SELECT username, permisos FROM users WHERE ID=?', [userId])
             const data = user[0];
-            const pantones = await pool.query(`SELECT * FROM clients WHERE ${opt.toUpperCase()}=?`,bus);
+            const pantones = await pool.query(`SELECT * FROM clients WHERE ${opt.toUpperCase()} =?`,bus);
             const allData = {pantones, ...data}
+            console.log(opt)
             res.render('pantones/search', { allData });
-           
         }
     } catch(err){
         console.log(err);
