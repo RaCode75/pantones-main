@@ -2698,3 +2698,497 @@ DB is Connected
 [0mGET /css/styles.css [36m304[0m 11.129 ms - -[0m
 Server on port:  4000
 DB is Connected
+Server on port:  4000
+DB is Connected
+[0mGET /pantones [32m200[0m 78.762 ms - 16024[0m
+[0mGET /css/styles.css [36m304[0m 6.835 ms - -[0m
+[0mGET /pantones [32m200[0m 13.710 ms - 16024[0m
+[0mGET /css/styles.css [32m200[0m 10.556 ms - 370[0m
+[0mGET /favicon.ico [33m404[0m 5.000 ms - 150[0m
+[0mGET /pantones/search/Natura [32m200[0m 25.121 ms - 22853[0m
+[0mGET /css/styles.css [36m304[0m 0.767 ms - -[0m
+[0mGET /pantones [36m304[0m 20.528 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.791 ms - -[0m
+[0mGET /pantones [36m304[0m 87.090 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 5.141 ms - -[0m
+[0mGET /pantones/search/Biosintex [32m200[0m 12.204 ms - 4606[0m
+[0mGET /css/styles.css [36m304[0m 0.640 ms - -[0m
+[0mGET /pantones [36m304[0m 11.125 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.997 ms - -[0m
+[0mGET /pantones [36m304[0m 9.847 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 6.191 ms - -[0m
+cliente
+[0mPOST /pantones/search [32m200[0m 27.513 ms - 4612[0m
+[0mGET /css/styles.css [36m304[0m 0.972 ms - -[0m
+[0mGET /pantones [36m304[0m 7.976 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.661 ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='avon'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:65:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='avon'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='avon'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+cliente
+[0mPOST /pantones/search [32m200[0m 11.776 ms - 18155[0m
+[0mGET /css/styles.css [36m304[0m 1.418 ms - -[0m
+[0mGET /pantones/search [32m200[0m 14.366 ms - 119946[0m
+[0mGET /css/styles.css [36m304[0m 0.702 ms - -[0m
+[0mGET /pantones/search [36m304[0m 17.337 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.767 ms - -[0m
+[0mGET /pantones [36m304[0m 7.987 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.975 ms - -[0m
+[0mGET /pantones [32m200[0m 29.066 ms - 16024[0m
+[0mGET /css/styles.css [32m200[0m 3.291 ms - 370[0m
+[0mGET /favicon.ico [33m404[0m 3.608 ms - 150[0m
+[0mGET /pantones/search/Biosintex [32m200[0m 18.425 ms - 4606[0m
+[0mGET /css/styles.css [36m304[0m 2.168 ms - -[0m
+[0mGET /pantones [36m304[0m 16.802 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.143 ms - -[0m
+[0mGET /pantones [36m304[0m 16.924 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 4.492 ms - -[0m
+color
+[0mPOST /pantones/search [32m200[0m 6.879 ms - 5355[0m
+[0mGET /css/styles.css [36m304[0m 1.905 ms - -[0m
+[0mGET /pantones [36m304[0m 20.748 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.243 ms - -[0m
+[0mGET /pantones/search/Laca [32m200[0m 10.372 ms - 7055[0m
+[0mGET /css/styles.css [36m304[0m 4.433 ms - -[0m
+[0mGET /pantones [36m304[0m 16.176 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.844 ms - -[0m
+[0mGET /pantones/search/Finadiet [32m200[0m 15.158 ms - 3683[0m
+[0mGET /css/styles.css [36m304[0m 2.459 ms - -[0m
+[0mGET /pantones [36m304[0m 16.931 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.045 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 18.579 ms - 18155[0m
+[0mGET /css/styles.css [36m304[0m 0.902 ms - -[0m
+[0mGET /pantones [36m304[0m 17.207 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 2.002 ms - -[0m
+[0mGET /pantones/search/Chiaru [32m200[0m 18.365 ms - 4531[0m
+[0mGET /css/styles.css [36m304[0m 2.879 ms - -[0m
+[0mGET /pantones [36m304[0m 16.656 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.509 ms - -[0m
+[0mGET /pantones/search/Merlino [32m200[0m 16.207 ms - 3700[0m
+[0mGET /css/styles.css [36m304[0m 2.893 ms - -[0m
+[0mGET /pantones [36m304[0m 16.235 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.871 ms - -[0m
+[0mGET /pantones/search/Nerova [32m200[0m 7.050 ms - 5319[0m
+[0mGET /css/styles.css [36m304[0m 2.999 ms - -[0m
+[0mGET /pantones [36m304[0m 20.008 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.982 ms - -[0m
+color
+[0mPOST /pantones/search [32m200[0m 10.740 ms - 5355[0m
+[0mGET /css/styles.css [36m304[0m 1.974 ms - -[0m
+[0mGET /pantones [36m304[0m 21.975 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.948 ms - -[0m
+[0mGET /logout [36m302[0m 4.977 ms - 56[0m
+[0mGET /login [32m200[0m 10.959 ms - 3804[0m
+[0mGET /css/styles.css [36m304[0m 2.000 ms - -[0m
+[0mGET /img/logoApp.png [32m200[0m 4.386 ms - 332971[0m
+[0mGET /login [32m200[0m 6.953 ms - 3804[0m
+[0mGET /css/styles.css [32m200[0m 2.492 ms - 370[0m
+[0mGET /img/logoApp.png [32m200[0m 2.529 ms - 332971[0m
+[0mGET /pantones [32m200[0m 16.498 ms - 16024[0m
+[0mGET /favicon.ico [33m404[0m 0.654 ms - 150[0m
+[0mGET /css/styles.css [36m304[0m 2.114 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 2.377 ms - 150[0m
+[0mGET /pantones [36m304[0m 21.059 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.601 ms - -[0m
+[0mGET /pantones [36m304[0m 25.611 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.929 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 2.892 ms - 150[0m
+[0mGET /pantones [36m304[0m 17.458 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.950 ms - -[0m
+[0mGET /pantones [36m304[0m 9.003 ms - -[0m
+[0mGET /pantones [32m200[0m 14.022 ms - 16024[0m
+[0mGET /css/styles.css [36m304[0m 1.903 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 2.279 ms - 150[0m
+[0mGET /pantones [32m200[0m 17.885 ms - 16024[0m
+[0mGET /css/styles.css [36m304[0m 1.934 ms - -[0m
+[0mGET /pantones [36m304[0m 10.111 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.931 ms - -[0m
+[0mGET /pantones [36m304[0m 15.725 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.957 ms - -[0m
+[0mGET /pantones [36m304[0m 9.894 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.901 ms - -[0m
+[0mGET /pantones/search/Avon [32m200[0m 8.954 ms - 18155[0m
+[0mGET /css/styles.css [36m304[0m 1.983 ms - -[0m
+[0mGET /pantones [36m304[0m 23.712 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 4.543 ms - -[0m
+[0mGET /pantones [36m304[0m 21.162 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.885 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 2.153 ms - 150[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='200'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:65:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='200'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='200'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='200'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:65:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='200'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='200'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='200'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:65:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='200'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='200'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='200'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:65:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='200'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='200'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='200'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:65:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='200'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='200'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='200'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:65:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='200'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='200'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [36m304[0m 16.537 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.907 ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='801'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:65:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='801'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='801'"
+}
+[0mGET /pantones/search/Avon [32m200[0m 26.568 ms - 18155[0m
+[0mGET /css/styles.css [36m304[0m 2.018 ms - -[0m
+[0mGET /pantones [36m304[0m 22.692 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.952 ms - -[0m
+[0mGET /pantones [32m200[0m 15.724 ms - 16024[0m
+[0mGET /css/styles.css [32m200[0m 2.438 ms - 370[0m
+[0mGET /favicon.ico [33m404[0m 2.381 ms - 150[0m
+[0mGET /pantones [32m200[0m 16.065 ms - 16024[0m
+[0mGET /css/styles.css [32m200[0m 2.337 ms - 370[0m
+[0mGET /favicon.ico [33m404[0m 2.722 ms - 150[0m
+[0mGET /pantones/search/Avon [32m200[0m 17.881 ms - 18155[0m
+[0mGET /css/styles.css [36m304[0m 0.537 ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='BIOSINTEX'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:65:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='BIOSINTEX'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='BIOSINTEX'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='BIOSINTEX'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:65:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='BIOSINTEX'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='BIOSINTEX'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='PADOC'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:65:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='PADOC'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='PADOC'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='PADOC'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:65:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='PADOC'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='PADOC'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='PADOC'' at line 1
+    at Query.Sequence._packetToError (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\node_modules\mysql\lib\Pool.js:199:23)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at Pool.query (node:internal/util:346:12)
+    at C:\Users\RABREU\Desktop\Personal\code\nodeCode\pantones-main\src\routes\pantones.js:65:41
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'POR: ='PADOC'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "SELECT * FROM clients WHERE BUSCAR POR: ='PADOC'"
+}
+[0mPOST /pantones/search [0m-[0m - ms - -[0m
+[0mGET /pantones [36m304[0m 29.676 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.544 ms - -[0m
+[0mGET /pantones/search/Pfizer [32m200[0m 25.737 ms - 3682[0m
+[0mGET /css/styles.css [36m304[0m 0.896 ms - -[0m
+[0mGET /pantones [36m304[0m 16.483 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 1.926 ms - -[0m
+[0mGET /pantones/search/Loval [32m200[0m 27.283 ms - 19294[0m
+[0mGET /css/styles.css [36m304[0m 0.864 ms - -[0m
+[0mGET /pantones [36m304[0m 18.569 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.578 ms - -[0m
+[0mGET /pantones/search/Temis%20Lostalo [32m200[0m 24.887 ms - 3742[0m
+[0mGET /css/styles.css [36m304[0m 1.047 ms - -[0m
+[0mGET /pantones [36m304[0m 20.927 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.490 ms - -[0m
+[0mGET /pantones/search/Tecnonuclear [32m200[0m 18.522 ms - 5442[0m
+[0mGET /css/styles.css [36m304[0m 0.475 ms - -[0m
+[0mGET /pantones [36m304[0m 22.099 ms - -[0m
+[0mGET /css/styles.css [36m304[0m 0.860 ms - -[0m
