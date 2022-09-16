@@ -1,19 +1,19 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fijo">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fijo ">
   <div class="container-fluid ">
     <a class="navbar-brand" href="/pantones">Pantones </a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    <div class="collapse navbar-collapse justify-content-end col-md-6 col-sm-8" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
+    <div class="collapse navbar-collapse  justify-content-end col-md-8 col-sm-8" id="navbarNav">
+      <ul class="navbar-nav ms-0 ">
                   {{#if allData.permisos}}
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/pantones/add">Agregar</a>
+          <a class="btn  mx-lg-2 my-sm-2 menu" aria-current="page" href="/pantones/add">Agregar</a>
         </li>
           {{/if}}
    <form class="form-inline " action="/pantones/search"method="POST">
-        <select class="custom-select cust-sel bg-dark" name="opt">
-          <option selected>Buscar por:</option>
+        <select class="custom-select cust-sel bg-dark manito" name="opt">
+          <option selected > Buscar por:</option>
           <option value="cliente" name="cli">Cliente</option>
           <option value="color" name="pant">Pantone</option>
         </select>

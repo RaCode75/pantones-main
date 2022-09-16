@@ -25,10 +25,31 @@ body{
 .cabecera {
     color:lightslategray;
 }
+.menu{
+    color:whitesmoke;
+}
+.menu:hover{
+    color:greenyellow;
+}
 
-@media (min-width: 568px) {
+.manito:hover{
+    cursor: pointer;
+}
+@media (min-width: 992){
+
+}
+
+
     h3 {
         font-size: 2vw;
     }
     
-}
+
+
+@media (min-width: 376px) {
+    .custom-select{
+        padding-left: 0;;
+    }
+        
+    }
+    
